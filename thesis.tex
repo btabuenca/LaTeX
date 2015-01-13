@@ -1,0 +1,81 @@
+\documentclass[a4paper,12pt,twoside,openright]{book}
+\usepackage{geometry}
+\newcommand{\textsubscript}[1]{$_{\text{#1}}$}
+
+\input{preamble}
+
+\begin{document}
+
+\nocite{*} % everything that doesn't get cited shouldn't appear in the bibliography 
+
+\begin{titlepage}
+	\null\vfill
+	\center
+		\Large
+		\textbf{Bernardo Tabuenca}\\
+		\vspace*{1em}
+	\Huge
+	\textbf{\textsc{Ubiquitous support for lifelong leaners with mobile technology}}\\
+	\vfill\null
+	
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+\end{titlepage}
+	
+\frontmatter	
+	\tableofcontents
+	
+	\cleardoublepage
+	\addcontentsline{toc}{chapter}{List of Figures} 
+	\listoffigures
+	
+	\cleardoublepage	
+	\addcontentsline{toc}{chapter}{List of Tables}
+	\listoftables
+	
+	\addtocontents{toc}{\bigskip}
+	
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+	\pagestyle{fancy}
+	
+\mainmatter
+	
+	\include{./chapters/Introduction}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+
+	\part{Theoretical Foundations}
+		\include{./chapters/ThinkingOutsideTheBox}
+			\clearpage{\pagestyle{empty}\cleardoublepage}
+	\part{Formative Studies}
+		\include{./chapters/ExpertConceptMappingStudy}
+			\clearpage{\pagestyle{empty}\cleardoublepage}
+
+
+
+
+	% Bernardooooo You are adding here your stuff. START		
+			
+	\part{Formative Studies}
+		\include{./chapters/MobileAuthoring}
+			\clearpage{\pagestyle{empty}\cleardoublepage}			
+
+
+	% Bernardooooo You are adding here your stuff. END
+	
+
+	\include{./chapters/Discussion}
+		\clearpage{\pagestyle{empty}\cleardoublepage}	
+	
+\backmatter
+
+	\bibliographystyle{apalike} % THIS sets the bibliography style. requires natbib in the header file.
+	\renewcommand{\bibname}{References}
+	\addcontentsline{toc}{chapter}{References}
+	\bibliography{bibtex/References.bib} %.. and this makes the actual bibliography appear after the list of figures and before the appendix.
+	
+	\addtocontents{toc}{\bigskip}
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+
+	\include{./chapters/Summary}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\end{document}

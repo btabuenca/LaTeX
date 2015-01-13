@@ -1,0 +1,197 @@
+\documentclass[normalheadings,tablecaptionabove,twoside,openright,chapterprefix,halfparskip,fontsize=10pt,numbers=noenddot]{scrbook} %b5,17cm:24cm,BCOR=1cm
+\input{preamble_print}
+
+\usepackage[papersize={17cm,24cm}]{geometry}
+\geometry{top=2.25cm,left=2.25cm,bottom=2.75cm}
+
+\makeatletter 
+\renewcommand\section{\@startsection 
+   {section}{1}{0mm}%         % name, ebene, einzug 
+   {0.8\baselineskip}%            % vor-abstand 
+   {0.4\baselineskip}%            % nach-abstand 
+   {\bfseries\sffamily\Large}%      % layout 
+   } 
+\makeatother 
+\makeatletter 
+\renewcommand\subsection{\@startsection 
+   {subsection}{2}{0mm}%      % name, ebene, einzug 
+   {0.4\baselineskip}%            % vor-abstand 
+   {0.2\baselineskip}%            % nach-abstand 
+   {\bfseries\sffamily\large}%           % layout 
+   } 
+\makeatother
+\makeatletter 
+\renewcommand\subsubsection{\@startsection 
+   {subsubsection}{3}{0mm}%      % name, ebene, einzug 
+   {0.2\baselineskip}%            % vor-abstand 
+   {0.1\baselineskip}%            % nach-abstand 
+   {\bfseries\sffamily\normalsize}%           % layout 
+   } 
+\makeatother
+
+\definecolor{light-gray}{gray}{0.75}
+\renewcommand*{\partformat}{\textcolor{light-gray}{\partname~\thepart}}
+\renewcommand*{\chapterformat}{\textcolor{light-gray}{\chaptername~\thechapter\enskip}}
+
+\renewcommand*{\captionformat}{~~}
+\renewcommand*{\chaptermarkformat}{}
+
+\begin{document}
+
+\nocite{*} % everything that doesn't get cited shouldn't appear in the bibliography 
+
+\begin{titlepage}
+	\null\vspace*{15.25em}
+	\center
+	\huge
+	\textbf{\textsc{Seamless support for lifelong learning with mobile technology}}\\
+	\vfill\null
+	
+	\newpage
+	\pagestyle{empty}
+	\raggedright
+	\normalsize
+	The research reported in this thesis was carried out at the Open Universiteit in the Netherlands at CELSTEC, the Centre for Learning Sciences and Technologies,\\
+	\vspace*{1em}
+	\center
+	\includegraphics[width=0.6\textwidth]{figures/Celstec-logo} \\ %0.75
+	\vspace*{1em}
+	\raggedright
+	and under the auspices of SIKS, the Dutch Research School for Information and Knowledge Systems.\\
+	\vspace*{1em}
+	\center
+	\includegraphics[width=0.25\textwidth]{figures/siks-kleur}\\ %0.4
+	\vfill
+	\raggedright
+	SIKS Dissertation Series No. 2013-37 \\
+	\vspace*{2em}
+	\copyright~Dirk Bšrner, 2013\\
+	Printed by Datawyse\\
+	Cover design: Chris Peeters\\
+	\vspace*{2em}
+	ISBN/EAN: 978 94 91825 09 5\\
+	\textit{All rights reserved.}
+	
+	\newpage
+	\null\vspace*{15.25em}
+	\center
+	\huge
+	\textbf{\textsc{Ambient Learning Displays}}\\
+	\vspace{2em}
+	\normalsize
+	Proefschrift\\
+	\vspace{1em}
+	ter verkrijging  van de graad van doctor \\
+	aan de Open Universiteit \\
+	op gezag van de rector magnificus \\
+	prof. mr. A. Oskamp \\
+	ten overstaan van een door het \\
+	College voor promoties ingestelde commissie \\
+	in het openbaar te verdedigen\\
+	\vspace{1em}
+	op vrijdag 15 november 2013 te Heerlen \\
+	om 13:30 uur precies\\
+	\vspace{1em}
+	door\\
+	\vspace{1em}
+	\textbf{Dirk B\"orner}\\
+	geboren op 15 augustus 1981 te Dresden\\
+	\vfill\null
+	
+	\newpage
+	\null\vfill
+	\raggedright
+	\textbf{Promotor} \\
+	Prof. dr. M.M. Specht \\
+	\textit{Open Universiteit} \par
+	\textbf{Co-promotor} \\
+	Dr. M. Kalz \\
+	\textit{Open Universiteit} \par
+	\textbf{Overige leden van de beoordelingscommissie}\\
+	Prof. dr. E. Duval \\
+	\textit{Katholieke Universiteit Leuven} \par
+	Prof. M. Milrad \\
+	\textit{Linnaeus University}  \par
+	Prof. dr. L. Kester \\
+	\textit{Open Universiteit} \par
+	Prof. dr. G.C. van der Veer \\
+	\textit{Open Universiteit}
+
+	\newpage
+	\null\vspace*{15.25em}
+	\begin{quote}
+		\center{\textit{The idea is good but the world isn't ready yet}}
+		\center{(Tocotronic, 1995)}
+	\end{quote}
+	\vfill\null
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+\end{titlepage}
+	
+\frontmatter	
+	\tableofcontents
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+	\addcontentsline{toc}{chapter}{List of Figures} 
+	\listoffigures
+	\cleardoublepage	
+	
+	\addcontentsline{toc}{chapter}{List of Tables}
+	\listoftables
+	
+	\addtocontents{toc}{\bigskip}
+	
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+	\pagestyle{fancy}
+	
+\mainmatter
+	
+	\include{./chapters/Introduction}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+	\part{Theoretical Foundations}
+
+		\include{./chapters/ThinkingOutsideTheBox}
+			\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+	\addtocontents{toc}{\bigskip}
+	\addtocontents{toc}{\bigskip}
+	
+	\part{Formative Studies}
+
+		\include{./chapters/ExpertConceptMappingStudy}
+			\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+	\addtocontents{toc}{\bigskip}
+	\addtocontents{toc}{\bigskip}
+	\addtocontents{toc}{\bigskip}
+	
+	\setcounter{footnote}{0}
+	
+	\include{./chapters/Discussion}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+\backmatter
+	
+	\include{./chapters/Acknowledgements}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+
+	\bibliographystyle{apalike} % THIS sets the bibliography style. requires natbib in the header file.
+	\renewcommand{\bibname}{References}
+	\addcontentsline{toc}{chapter}{References}
+	\bibliography{bibtex/Ambient_Learning_Displays.bib} %.. and this makes the actual bibliography appear after the list of figures and before the appendix.
+	
+	\addtocontents{toc}{\bigskip}
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+	\setcounter{footnote}{0}
+	\include{./chapters/Summary}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+	\setcounter{footnote}{0}
+	\include{./chapters/Samenvatting}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+	
+	\include{./chapters/SIKS}
+		\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\end{document}

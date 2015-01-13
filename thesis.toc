@@ -1,0 +1,59 @@
+\select@language {british}
+\contentsline {chapter}{List of Figures}{v}
+\contentsline {chapter}{List of Tables}{vii}
+\vspace \bigskipamount 
+\contentsline {part}{General Introduction}{1}
+\contentsline {part}{I\hspace {1em}Theoretical Foundations}{7}
+\contentsline {chapter}{\numberline {1}Thinking outside the box: A vision of ambient learning displays}{9}
+\contentsline {section}{\numberline {1.1}Introduction and background}{10}
+\contentsline {section}{\numberline {1.2}Ubiquitous learning characteristics}{11}
+\contentsline {subsection}{\numberline {1.2.1}Information aspects}{12}
+\contentsline {subsection}{\numberline {1.2.2}Interaction aspects}{13}
+\contentsline {subsection}{\numberline {1.2.3}Instructional design}{14}
+\contentsline {section}{\numberline {1.3}Towards ambient learning displays}{15}
+\contentsline {subsection}{\numberline {1.3.1}Research questions}{16}
+\contentsline {subsection}{\numberline {1.3.2}Research objectives}{17}
+\contentsline {subsection}{\numberline {1.3.3}Provisional conceptual framework}{18}
+\contentsline {section}{\numberline {1.4}Research agenda}{20}
+\contentsline {subsection}{\numberline {1.4.1}Experimental design}{21}
+\contentsline {subsection}{\numberline {1.4.2}Evaluation technique}{22}
+\contentsline {subsection}{\numberline {1.4.3}Discussion}{23}
+\contentsline {section}{\numberline {1.5}Conclusions}{24}
+\contentsline {part}{II\hspace {1em}Formative Studies}{27}
+\contentsline {chapter}{\numberline {2}Expert concept mapping study on mobile learning}{29}
+\contentsline {section}{\numberline {2.1}Introduction}{30}
+\contentsline {section}{\numberline {2.2}Method}{31}
+\contentsline {subsection}{\numberline {2.2.1}Preparation}{31}
+\contentsline {subsection}{\numberline {2.2.2}Procedure}{32}
+\contentsline {subsubsection}{Generation of Statements}{32}
+\contentsline {subsubsection}{Structuring of Statements}{32}
+\contentsline {section}{\numberline {2.3}Results}{34}
+\contentsline {subsection}{\numberline {2.3.1}Data Analysis}{34}
+\contentsline {subsection}{\numberline {2.3.2}Problem Cluster Analysis}{35}
+\contentsline {subsection}{\numberline {2.3.3}Problem Emphasis Analysis}{40}
+\contentsline {section}{\numberline {2.4}Discussion}{43}
+\contentsline {section}{\numberline {2.5}Conclusions}{45}
+\contentsline {part}{III\hspace {1em}Formative Studies}{47}
+\contentsline {chapter}{\numberline {3}Mobile authoring of open educational resources for authentic learning scenarios}{49}
+\contentsline {section}{\numberline {3.1}Introduction}{51}
+\contentsline {section}{\numberline {3.2}Motivation and related work}{52}
+\contentsline {subsection}{\numberline {3.2.1}Review in mobile authoring tools}{53}
+\contentsline {section}{\numberline {3.3}Design of the Mobile Authoring Tool for ARLearn}{57}
+\contentsline {subsection}{\numberline {3.3.1}ARLearn: Cloud-based platform for mobile serious games}{57}
+\contentsline {subsection}{\numberline {3.3.2}\em MAT for ARLearn \em }{58}
+\contentsline {subsection}{\numberline {3.3.3}OER remix in mobile context}{61}
+\contentsline {subsection}{\numberline {3.3.4}OER licensing policy definition}{63}
+\contentsline {section}{\numberline {3.4}Usability Evaluation of \em MAT for ARLearn \em }{65}
+\contentsline {subsection}{\numberline {3.4.1}Method and participants}{65}
+\contentsline {subsection}{\numberline {3.4.2}Instruments}{66}
+\contentsline {section}{\numberline {3.5}Results}{67}
+\contentsline {subsection}{\numberline {3.5.1}Usability evaluation}{67}
+\contentsline {subsection}{\numberline {3.5.2}Hedonic quality evaluation}{68}
+\contentsline {section}{\numberline {3.6}Discussion and Conclusions}{69}
+\contentsline {section}{Annexes}{71}
+\contentsline {subsection}{\numberline {I}Authoring tools in mobile context}{71}
+\contentsline {subsection}{\numberline {II}Mobile authoring tools classification according to the 10 features for universal access to educational resources}{72}
+\contentsline {part}{General Discussion}{75}
+\contentsline {chapter}{References}{91}
+\vspace \bigskipamount 
+\contentsline {chapter}{Summary}{111}
