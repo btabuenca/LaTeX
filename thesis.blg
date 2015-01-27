@@ -2,76 +2,68 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: ./chapters/Introduction.aux
-A level-1 auxiliary file: ./chapters/ThinkingOutsideTheBox.aux
-A level-1 auxiliary file: ./chapters/CloserToYou.aux
-A level-1 auxiliary file: ./chapters/BeyondTheChannel.aux
-A level-1 auxiliary file: ./chapters/ExpertConceptMappingStudy.aux
-A level-1 auxiliary file: ./chapters/EnergyAwarenessDisplays.aux
-A level-1 auxiliary file: ./chapters/Mindergie.aux
-A level-1 auxiliary file: ./chapters/LectureSeries.aux
-A level-1 auxiliary file: ./chapters/ItDoesntMatterBut.aux
-A level-1 auxiliary file: ./chapters/TheyWantToTellUs.aux
-A level-1 auxiliary file: ./chapters/LeadMeGently.aux
-A level-1 auxiliary file: ./chapters/Discussion.aux
+A level-1 auxiliary file: ./chapters/MobileAuthoring.aux
 The style file: apalike.bst
 A level-1 auxiliary file: ./chapters/Summary.aux
-Database file #1: bibtex/Ambient_Learning_Displays.bib.bib
-Warning--can't use both volume and number fields in Ajzen1985
-Warning--can't use both author and editor fields in Ally2009b
-Warning--there's a number but no series in Barbosa2008a
-Warning--can't use both author and editor fields in Donovan1999
-Warning--can't use both volume and number fields in Donovan1999
-Warning--empty publisher in Gardner1996
-Warning--there's a number but no series in Ho-Ching2003
-Warning--can't use both volume and number fields in Matthews2004
-Warning--empty publisher in Mory2004
-Warning--there's a number but no series in Muller2010a
-Warning--empty journal in O'Malley2003
-Warning--can't use both volume and number fields in Plaue2004
-Warning--can't use both author and editor fields in Schon1983a
-Warning--can't use both volume and number fields in Sterling2005
-Warning--can't use both volume and number fields in Traxler2009d
-Warning--empty institution in UnitedNationsEnvironmentProgramme2012
-Warning--empty journal in Wild2009
-You've used 208 entries,
+Database file #1: bibtex/references.bib.bib
+Warning--I didn't find a database entry for "Weiser1999"
+Warning--I didn't find a database entry for "Cisco2013"
+Warning--I didn't find a database entry for "OxfordDictionaries2010"
+Warning--I didn't find a database entry for "Wisneski1998a"
+Warning--empty publisher in Atkins2007
+Warning--empty journal in Bonsignore2013
+Warning--empty institution in Giemza2012
+Warning--empty journal in Hoseini-tabatabaei2013
+Warning--empty journal in Kim2012
+Warning--there's a number but no volume in Kim2012
+Warning--empty journal in Mathews2010
+Warning--empty journal in Nah2010
+Warning--empty publisher in Papert1980
+Warning--empty publisher in Specht2009
+Warning--there's a number but no volume in Tabuenca2012c
+Warning--there's a number but no volume in Tai2007
+Warning--there's a number but no series in Ternier2012a
+Warning--there's a number but no series in Vollmer2013
+Warning--empty journal in Wichmann2010
+You've used 75 entries,
             1935 wiz_defined-function locations,
-            1792 strings with 44738 characters,
-and the built_in function-call counts, 94705 in all, are:
-= -- 9489
-> -- 3922
-< -- 226
-+ -- 1305
-- -- 1296
-* -- 7647
-:= -- 15690
-add.period$ -- 697
-call.type$ -- 208
-change.case$ -- 1610
-chr.to.int$ -- 199
-cite$ -- 225
-duplicate$ -- 4036
-empty$ -- 6659
-format.name$ -- 1590
-if$ -- 19468
-int.to.chr$ -- 10
+            932 strings with 17975 characters,
+and the built_in function-call counts, 30882 in all, are:
+= -- 3064
+> -- 1255
+< -- 65
++ -- 422
+- -- 420
+* -- 2494
+:= -- 5269
+add.period$ -- 223
+call.type$ -- 75
+change.case$ -- 583
+chr.to.int$ -- 73
+cite$ -- 90
+duplicate$ -- 1253
+empty$ -- 2083
+format.name$ -- 529
+if$ -- 6140
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 211
-newline$ -- 1022
-num.names$ -- 694
-pop$ -- 1689
+missing$ -- 76
+newline$ -- 375
+num.names$ -- 225
+pop$ -- 537
 preamble$ -- 1
-purify$ -- 1632
+purify$ -- 585
 quote$ -- 0
-skip$ -- 3032
+skip$ -- 1032
 stack$ -- 0
-substring$ -- 6159
-swap$ -- 1029
-text.length$ -- 124
+substring$ -- 2034
+swap$ -- 272
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1196
-warning$ -- 17
-while$ -- 798
+type$ -- 442
+warning$ -- 15
+while$ -- 265
 width$ -- 0
-write$ -- 2824
-(There were 17 warnings)
+write$ -- 954
+(There were 19 warnings)
