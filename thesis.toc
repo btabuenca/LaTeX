@@ -3,78 +3,78 @@
 \contentsline {chapter}{List of Tables}{vii}
 \vspace \bigskipamount 
 \contentsline {part}{General Introduction}{1}
-\contentsline {part}{I\hspace {1em}Stop and Think: Exploring Mobile Notifications to Foster Reflective Practice on Meta-Learning}{7}
-\contentsline {chapter}{\numberline {1}Stop and Think: Exploring Mobile Notifications to Foster Reflective Practice on Meta-Learning}{9}
-\contentsline {section}{\numberline {1.1}Introduction}{11}
-\contentsline {subsection}{\numberline {1.1.1}How to Design Mobile Notifications for Student Reflection Support}{11}
-\contentsline {section}{\numberline {1.2}Study 1: Embedding Reflection In Everyday Activity Via SMS Notifications}{11}
-\contentsline {subsection}{\numberline {1.2.1}Method}{11}
-\contentsline {subsubsection}{Participants}{11}
-\contentsline {subsubsection}{Materials}{11}
-\contentsline {subsubsection}{Design}{11}
-\contentsline {subsubsection}{Procedure}{11}
-\contentsline {subsection}{\numberline {1.2.2}Results}{11}
-\contentsline {subsubsection}{Participation}{11}
-\contentsline {subsubsection}{Intensity of the Learning day and Channels Used}{11}
-\contentsline {subsubsection}{Episodes of Introspective Reflection}{11}
-\contentsline {section}{\numberline {1.3}Study 2: Experimental Study On Reflection In-Action With Mobile Notifications}{11}
-\contentsline {subsection}{\numberline {1.3.1}Method}{11}
-\contentsline {subsubsection}{Participants}{11}
-\contentsline {subsubsection}{Materials}{11}
-\contentsline {subsubsection}{Design}{11}
-\contentsline {subsubsection}{Procedure}{11}
-\contentsline {subsubsection}{Measure Instruments}{11}
-\contentsline {subsection}{\numberline {1.3.2}Results}{11}
-\contentsline {subsubsection}{Reflecting in-Action with Mobile Notifications}{11}
-\contentsline {section}{\numberline {1.4}Discussion and Conclusions}{11}
-\contentsline {part}{II\hspace {1em}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{13}
-\contentsline {chapter}{\numberline {2}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{15}
-\contentsline {section}{\numberline {2.1}Introduction}{16}
-\contentsline {section}{\numberline {2.2}Literature Review In Nfc Technology For Learning}{16}
-\contentsline {subsection}{\numberline {2.2.1}Formal Education}{16}
-\contentsline {subsection}{\numberline {2.2.2}Guided Tours And Fieldtrips}{16}
-\contentsline {subsection}{\numberline {2.2.3}User Identification}{16}
-\contentsline {subsection}{\numberline {2.2.4}Activity Recognition \& Life Logging}{16}
-\contentsline {subsection}{\numberline {2.2.5}Smart Home}{16}
-\contentsline {subsection}{\numberline {2.2.6}Support Of Disabled People}{16}
-\contentsline {subsection}{\numberline {2.2.7}Payment Systems And Simulations}{16}
-\contentsline {subsection}{\numberline {2.2.8}Logistics \& Object Identification}{16}
-\contentsline {subsection}{\numberline {2.2.9}Results Of The Review}{16}
-\contentsline {section}{\numberline {2.3}A Seamless Ecology To Learn From Videos}{16}
-\contentsline {subsection}{\numberline {2.3.1}The NFC MediaPlayer}{16}
-\contentsline {subsection}{\numberline {2.3.2}Implementation}{16}
-\contentsline {section}{\numberline {2.4}Discussion and Conclusions}{16}
-\contentsline {part}{III\hspace {1em}Binding daily physical environments to learning activities with mobile and sensor technology}{17}
-\contentsline {chapter}{\numberline {3}Binding Daily Physical Environments To Learning Activities With Mobile And Sensor Technology}{19}
-\contentsline {section}{\numberline {3.1}Introduction}{20}
-\contentsline {subsection}{\numberline {3.1.1}Using NFC Sensor Tags For Bridging Seams And Natural Interaction}{20}
-\contentsline {section}{\numberline {3.2}Design Of The NFC LearnTracker}{20}
-\contentsline {subsection}{\numberline {3.2.1}Self-Regulation Across Contexts With Mobile Learning Analytics}{20}
-\contentsline {subsubsection}{Set Goals}{20}
-\contentsline {subsubsection}{Perform Learning Activities}{20}
-\contentsline {subsubsection}{Monitor Learning Activities}{20}
-\contentsline {subsection}{\numberline {3.2.2}An Open Source Architecture Facilitating Extension Across NFC Readers And NFC tags}{20}
-\contentsline {section}{\numberline {3.3}Formative Evaluation}{20}
-\contentsline {section}{\numberline {3.4}Conclusions And Future Work}{20}
-\contentsline {part}{IV\hspace {1em}Mobile Authoring of OER in Authentic Learning Scenarios}{21}
-\contentsline {section}{\numberline {3.5}Introduction}{24}
-\contentsline {section}{\numberline {3.6}Motivation and related work}{25}
-\contentsline {subsection}{\numberline {3.6.1}Review in mobile authoring tools}{26}
-\contentsline {section}{\numberline {3.7}Design of the Mobile Authoring Tool for ARLearn}{30}
-\contentsline {subsection}{\numberline {3.7.1}ARLearn: Cloud-based platform for mobile serious games}{31}
-\contentsline {subsection}{\numberline {3.7.2}\em MAT for ARLearn \em }{33}
-\contentsline {subsection}{\numberline {3.7.3}OER remix in mobile context}{34}
-\contentsline {subsection}{\numberline {3.7.4}OER licensing policy definition}{37}
-\contentsline {section}{\numberline {3.8}Usability Evaluation of \em MAT for ARLearn \em }{39}
-\contentsline {subsection}{\numberline {3.8.1}Method and participants}{39}
-\contentsline {subsection}{\numberline {3.8.2}Instruments}{40}
-\contentsline {section}{\numberline {3.9}Results}{41}
-\contentsline {subsection}{\numberline {3.9.1}Usability evaluation}{41}
-\contentsline {subsection}{\numberline {3.9.2}Hedonic quality evaluation}{42}
-\contentsline {section}{\numberline {3.10}Discussion and Conclusions}{43}
-\contentsline {section}{Annexes}{45}
-\contentsline {subsection}{\numberline {I}Authoring tools in mobile context}{45}
-\contentsline {subsection}{\numberline {II}Mobile authoring tools classification according to the 10 features for universal access to educational resources}{46}
+\contentsline {part}{I\hspace {1em}Mobile authoring of OER for authentic learning scenarios}{7}
+\contentsline {section}{\numberline {0.1}Introduction}{10}
+\contentsline {section}{\numberline {0.2}Motivation and related work}{11}
+\contentsline {subsection}{\numberline {0.2.1}Review in mobile authoring tools}{12}
+\contentsline {section}{\numberline {0.3}Design of the Mobile Authoring Tool for ARLearn}{16}
+\contentsline {subsection}{\numberline {0.3.1}ARLearn: Cloud-based platform for mobile serious games}{17}
+\contentsline {subsection}{\numberline {0.3.2}\em MAT for ARLearn \em }{19}
+\contentsline {subsection}{\numberline {0.3.3}OER remix in mobile context}{20}
+\contentsline {subsection}{\numberline {0.3.4}OER licensing policy definition}{23}
+\contentsline {section}{\numberline {0.4}Usability Evaluation of \em MAT for ARLearn \em }{25}
+\contentsline {subsection}{\numberline {0.4.1}Method and participants}{25}
+\contentsline {subsection}{\numberline {0.4.2}Instruments}{26}
+\contentsline {section}{\numberline {0.5}Results}{27}
+\contentsline {subsection}{\numberline {0.5.1}Usability evaluation}{27}
+\contentsline {subsection}{\numberline {0.5.2}Hedonic quality evaluation}{28}
+\contentsline {section}{\numberline {0.6}Discussion and Conclusions}{29}
+\contentsline {section}{Annexes}{31}
+\contentsline {subsection}{\numberline {I}Authoring tools in mobile context}{31}
+\contentsline {subsection}{\numberline {II}Mobile authoring tools classification according to the 10 limitations for universal access to educational resources}{32}
+\contentsline {part}{II\hspace {1em}Stop and Think: Exploring Mobile Notifications to Foster Reflective Practice on Meta-Learning}{35}
+\contentsline {chapter}{\numberline {1}Stop and Think: Exploring Mobile Notifications to Foster Reflective Practice on Meta-Learning}{37}
+\contentsline {section}{\numberline {1.1}Introduction}{39}
+\contentsline {subsection}{\numberline {I}How to Design Mobile Notifications for Student Reflection Support}{39}
+\contentsline {section}{\numberline {1.2}Study 1: Embedding Reflection In Everyday Activity Via SMS Notifications}{39}
+\contentsline {subsection}{\numberline {I}Method}{39}
+\contentsline {subsubsection}{Participants}{39}
+\contentsline {subsubsection}{Materials}{39}
+\contentsline {subsubsection}{Design}{39}
+\contentsline {subsubsection}{Procedure}{39}
+\contentsline {subsection}{\numberline {II}Results}{39}
+\contentsline {subsubsection}{Participation}{39}
+\contentsline {subsubsection}{Intensity of the Learning day and Channels Used}{39}
+\contentsline {subsubsection}{Episodes of Introspective Reflection}{39}
+\contentsline {section}{\numberline {1.3}Study 2: Experimental Study On Reflection In-Action With Mobile Notifications}{39}
+\contentsline {subsection}{\numberline {I}Method}{39}
+\contentsline {subsubsection}{Participants}{39}
+\contentsline {subsubsection}{Materials}{39}
+\contentsline {subsubsection}{Design}{39}
+\contentsline {subsubsection}{Procedure}{39}
+\contentsline {subsubsection}{Measure Instruments}{39}
+\contentsline {subsection}{\numberline {II}Results}{39}
+\contentsline {subsubsection}{Reflecting in-Action with Mobile Notifications}{39}
+\contentsline {section}{\numberline {1.4}Discussion and Conclusions}{39}
+\contentsline {part}{III\hspace {1em}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{41}
+\contentsline {chapter}{\numberline {2}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{43}
+\contentsline {section}{\numberline {2.1}Introduction}{44}
+\contentsline {section}{\numberline {2.2}Literature Review In Nfc Technology For Learning}{44}
+\contentsline {subsection}{\numberline {I}Formal Education}{44}
+\contentsline {subsection}{\numberline {II}Guided Tours And Fieldtrips}{44}
+\contentsline {subsection}{\numberline {III}User Identification}{44}
+\contentsline {subsection}{\numberline {IV}Activity Recognition \& Life Logging}{44}
+\contentsline {subsection}{\numberline {V}Smart Home}{44}
+\contentsline {subsection}{\numberline {VI}Support Of Disabled People}{44}
+\contentsline {subsection}{\numberline {VII}Payment Systems And Simulations}{44}
+\contentsline {subsection}{\numberline {VIII}Logistics \& Object Identification}{44}
+\contentsline {subsection}{\numberline {IX}Results Of The Review}{44}
+\contentsline {section}{\numberline {2.3}A Seamless Ecology To Learn From Videos}{44}
+\contentsline {subsection}{\numberline {I}The NFC MediaPlayer}{44}
+\contentsline {subsection}{\numberline {II}Implementation}{44}
+\contentsline {section}{\numberline {2.4}Discussion and Conclusions}{44}
+\contentsline {part}{IV\hspace {1em}Binding daily physical environments to learning activities with mobile and sensor technology}{45}
+\contentsline {chapter}{\numberline {3}Binding Daily Physical Environments To Learning Activities With Mobile And Sensor Technology}{47}
+\contentsline {section}{\numberline {3.1}Introduction}{48}
+\contentsline {subsection}{\numberline {I}Using NFC Sensor Tags For Bridging Seams And Natural Interaction}{48}
+\contentsline {section}{\numberline {3.2}Design Of The NFC LearnTracker}{48}
+\contentsline {subsection}{\numberline {I}Self-Regulation Across Contexts With Mobile Learning Analytics}{48}
+\contentsline {subsubsection}{Set Goals}{48}
+\contentsline {subsubsection}{Perform Learning Activities}{48}
+\contentsline {subsubsection}{Monitor Learning Activities}{48}
+\contentsline {subsection}{\numberline {II}An Open Source Architecture Facilitating Extension Across NFC Readers And NFC tags}{48}
+\contentsline {section}{\numberline {3.3}Formative Evaluation}{48}
+\contentsline {section}{\numberline {3.4}Conclusions And Future Work}{48}
 \contentsline {part}{V\hspace {1em}Supporting Lifelong Learners To Build Personal Learning Ecologies In Daily Physical Spaces}{49}
 \contentsline {chapter}{\numberline {4}Supporting Lifelong Learners To Build Personal Learning Ecologies In Daily Physical Spaces}{51}
 \contentsline {section}{\numberline {4.1}Introduction}{52}
