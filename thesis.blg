@@ -3,67 +3,87 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: ./chapters/Introduction.aux
 A level-1 auxiliary file: ./chapters/MobileAuthoring.aux
+A level-1 auxiliary file: ./chapters/Notifications.aux
+A level-1 auxiliary file: ./chapters/NFCreview.aux
+A level-1 auxiliary file: ./chapters/NFCLearnTracker.aux
+A level-1 auxiliary file: ./chapters/Survey.aux
+A level-1 auxiliary file: ./chapters/Esm.aux
+A level-1 auxiliary file: ./chapters/OERrepos.aux
 The style file: apalike.bst
 A level-1 auxiliary file: ./chapters/Summary.aux
-Database file #1: bibtex/references.bib.bib
+Database file #1: bibtex/References.bib.bib
 Warning--I didn't find a database entry for "Weiser1999"
 Warning--I didn't find a database entry for "Cisco2013"
 Warning--I didn't find a database entry for "OxfordDictionaries2010"
 Warning--I didn't find a database entry for "Wisneski1998a"
+Warning--I didn't find a database entry for "tap"
 Warning--empty publisher in Atkins2007
 Warning--empty journal in Bonsignore2013
+Warning--empty journal in Erkens2005
+Warning--empty institution in EuropeanCommission2007
+Warning--empty publisher in Facer2011
 Warning--empty institution in Giemza2012
+Warning--empty publisher in Hattie2008
+Warning--empty publisher in Hektner2007
 Warning--empty journal in Hoseini-tabatabaei2013
 Warning--empty journal in Kim2012
 Warning--there's a number but no volume in Kim2012
+Warning--empty publisher in Longworth2013
 Warning--empty journal in Mathews2010
+Warning--empty publisher in Miller2008
 Warning--empty journal in Nah2010
 Warning--empty publisher in Papert1980
+Warning--empty publisher in Publishing2011
 Warning--empty publisher in Specht2009
 Warning--there's a number but no volume in Tabuenca2012c
+Warning--there's a number but no volume in Tabuenca2014d
+Warning--there's a number but no volume in Tabuenca2014
 Warning--there's a number but no volume in Tai2007
 Warning--there's a number but no series in Ternier2012a
+Warning--empty journal in Ternier2013
+Warning--empty publisher in Verpoorten2012
+Warning--empty journal in Verpoorten2009
 Warning--there's a number but no series in Vollmer2013
 Warning--empty journal in Wichmann2010
-You've used 75 entries,
+You've used 123 entries,
             1935 wiz_defined-function locations,
-            932 strings with 17975 characters,
-and the built_in function-call counts, 30882 in all, are:
-= -- 3064
-> -- 1255
-< -- 65
-+ -- 422
-- -- 420
-* -- 2494
-:= -- 5269
-add.period$ -- 223
-call.type$ -- 75
-change.case$ -- 583
-chr.to.int$ -- 73
-cite$ -- 90
-duplicate$ -- 1253
-empty$ -- 2083
-format.name$ -- 529
-if$ -- 6140
-int.to.chr$ -- 3
+            1216 strings with 26527 characters,
+and the built_in function-call counts, 49382 in all, are:
+= -- 4871
+> -- 1964
+< -- 107
++ -- 662
+- -- 654
+* -- 3978
+:= -- 8453
+add.period$ -- 360
+call.type$ -- 123
+change.case$ -- 933
+chr.to.int$ -- 115
+cite$ -- 151
+duplicate$ -- 2030
+empty$ -- 3383
+format.name$ -- 829
+if$ -- 9806
+int.to.chr$ -- 9
 int.to.str$ -- 0
-missing$ -- 76
-newline$ -- 375
-num.names$ -- 225
-pop$ -- 537
+missing$ -- 130
+newline$ -- 606
+num.names$ -- 369
+pop$ -- 884
 preamble$ -- 1
-purify$ -- 585
+purify$ -- 942
 quote$ -- 0
-skip$ -- 1032
+skip$ -- 1643
 stack$ -- 0
-substring$ -- 2034
-swap$ -- 272
-text.length$ -- 28
+substring$ -- 3214
+swap$ -- 415
+text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 442
-warning$ -- 15
-while$ -- 265
+type$ -- 712
+warning$ -- 28
+while$ -- 420
 width$ -- 0
-write$ -- 954
-(There were 19 warnings)
+write$ -- 1549
+(There were 33 warnings)

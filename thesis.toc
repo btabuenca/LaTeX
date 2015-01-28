@@ -25,108 +25,108 @@
 \contentsline {part}{II\hspace {1em}Stop and Think: Exploring Mobile Notifications to Foster Reflective Practice on Meta-Learning}{35}
 \contentsline {chapter}{\numberline {1}Stop and Think: Exploring Mobile Notifications to Foster Reflective Practice on Meta-Learning}{37}
 \contentsline {section}{\numberline {1.1}Introduction}{39}
-\contentsline {subsection}{\numberline {I}How to Design Mobile Notifications for Student Reflection Support}{39}
-\contentsline {section}{\numberline {1.2}Study 1: Embedding Reflection In Everyday Activity Via SMS Notifications}{39}
-\contentsline {subsection}{\numberline {I}Method}{39}
-\contentsline {subsubsection}{Participants}{39}
-\contentsline {subsubsection}{Materials}{39}
-\contentsline {subsubsection}{Design}{39}
-\contentsline {subsubsection}{Procedure}{39}
-\contentsline {subsection}{\numberline {II}Results}{39}
-\contentsline {subsubsection}{Participation}{39}
-\contentsline {subsubsection}{Intensity of the Learning day and Channels Used}{39}
-\contentsline {subsubsection}{Episodes of Introspective Reflection}{39}
-\contentsline {section}{\numberline {1.3}Study 2: Experimental Study On Reflection In-Action With Mobile Notifications}{39}
-\contentsline {subsection}{\numberline {I}Method}{39}
-\contentsline {subsubsection}{Participants}{39}
-\contentsline {subsubsection}{Materials}{39}
-\contentsline {subsubsection}{Design}{39}
-\contentsline {subsubsection}{Procedure}{39}
-\contentsline {subsubsection}{Measure Instruments}{39}
-\contentsline {subsection}{\numberline {II}Results}{39}
-\contentsline {subsubsection}{Reflecting in-Action with Mobile Notifications}{39}
-\contentsline {section}{\numberline {1.4}Discussion and Conclusions}{39}
-\contentsline {part}{III\hspace {1em}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{41}
-\contentsline {chapter}{\numberline {2}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{43}
-\contentsline {section}{\numberline {2.1}Introduction}{44}
-\contentsline {section}{\numberline {2.2}Literature Review In Nfc Technology For Learning}{44}
-\contentsline {subsection}{\numberline {I}Formal Education}{44}
-\contentsline {subsection}{\numberline {II}Guided Tours And Fieldtrips}{44}
-\contentsline {subsection}{\numberline {III}User Identification}{44}
-\contentsline {subsection}{\numberline {IV}Activity Recognition \& Life Logging}{44}
-\contentsline {subsection}{\numberline {V}Smart Home}{44}
-\contentsline {subsection}{\numberline {VI}Support Of Disabled People}{44}
-\contentsline {subsection}{\numberline {VII}Payment Systems And Simulations}{44}
-\contentsline {subsection}{\numberline {VIII}Logistics \& Object Identification}{44}
-\contentsline {subsection}{\numberline {IX}Results Of The Review}{44}
-\contentsline {section}{\numberline {2.3}A Seamless Ecology To Learn From Videos}{44}
-\contentsline {subsection}{\numberline {I}The NFC MediaPlayer}{44}
-\contentsline {subsection}{\numberline {II}Implementation}{44}
-\contentsline {section}{\numberline {2.4}Discussion and Conclusions}{44}
-\contentsline {part}{IV\hspace {1em}Binding daily physical environments to learning activities with mobile and sensor technology}{45}
-\contentsline {chapter}{\numberline {3}Binding Daily Physical Environments To Learning Activities With Mobile And Sensor Technology}{47}
-\contentsline {section}{\numberline {3.1}Introduction}{48}
-\contentsline {subsection}{\numberline {I}Using NFC Sensor Tags For Bridging Seams And Natural Interaction}{48}
-\contentsline {section}{\numberline {3.2}Design Of The NFC LearnTracker}{48}
-\contentsline {subsection}{\numberline {I}Self-Regulation Across Contexts With Mobile Learning Analytics}{48}
-\contentsline {subsubsection}{Set Goals}{48}
-\contentsline {subsubsection}{Perform Learning Activities}{48}
-\contentsline {subsubsection}{Monitor Learning Activities}{48}
-\contentsline {subsection}{\numberline {II}An Open Source Architecture Facilitating Extension Across NFC Readers And NFC tags}{48}
-\contentsline {section}{\numberline {3.3}Formative Evaluation}{48}
-\contentsline {section}{\numberline {3.4}Conclusions And Future Work}{48}
-\contentsline {part}{V\hspace {1em}Supporting Lifelong Learners To Build Personal Learning Ecologies In Daily Physical Spaces}{49}
-\contentsline {chapter}{\numberline {4}Supporting Lifelong Learners To Build Personal Learning Ecologies In Daily Physical Spaces}{51}
-\contentsline {section}{\numberline {4.1}Introduction}{52}
-\contentsline {section}{\numberline {4.2}A Questionnaire For Lifelong Learners}{52}
-\contentsline {subsection}{\numberline {I}Method}{52}
-\contentsline {subsection}{\numberline {II}Results}{52}
-\contentsline {subsubsection}{The concept of 'lifelong learning'}{52}
-\contentsline {subsubsection}{Patterns based on type of device, lifelong learners' behaviour and timing}{52}
-\contentsline {subsubsection}{Linking locations, activities and ways of interaction with mobile devices}{52}
-\contentsline {subsubsection}{At home}{52}
-\contentsline {subsubsection}{Waiting}{52}
-\contentsline {subsubsection}{On-the-move}{52}
-\contentsline {subsubsection}{Gender}{52}
-\contentsline {subsubsection}{Missing Learning Activities}{52}
-\contentsline {subsubsection}{Difficulties When Learning With Mobile Devices}{52}
-\contentsline {section}{\numberline {4.3}A Review On Smart Objects For Learning}{52}
-\contentsline {subsection}{\numberline {I}At home}{52}
-\contentsline {subsubsection}{In the the classroom \& workplace}{52}
-\contentsline {section}{\numberline {4.4}Conclusions}{52}
-\contentsline {part}{VI\hspace {1em}Where Is My Time? Identifying Productive Time Of Lifelong Learners For Effective Feedback Services}{53}
-\contentsline {chapter}{\numberline {5}Where Is My Time? Identifying Productive Time of Lifelong Learners for Effective Feedback Services}{55}
-\contentsline {section}{\numberline {5.1}Introduction}{56}
-\contentsline {section}{\numberline {5.2}A Classification Framework For Modelling Lifelong Learners\IeC {\textquoteright } Day}{56}
-\contentsline {subsection}{\numberline {I}Receive notification}{56}
-\contentsline {subsection}{\numberline {II}Dispatch question}{56}
-\contentsline {subsection}{\numberline {III}Provide answer}{56}
-\contentsline {section}{\numberline {5.3}Qualitative study}{56}
-\contentsline {subsection}{\numberline {I}Introduction}{56}
-\contentsline {subsection}{\numberline {II}Method}{56}
-\contentsline {subsubsection}{Participants}{56}
-\contentsline {subsubsection}{Materials}{56}
-\contentsline {subsubsection}{Design}{56}
-\contentsline {subsubsection}{Procedure}{56}
-\contentsline {subsection}{\numberline {III}Results}{56}
-\contentsline {section}{\numberline {5.4}Discussion and Conclusions}{56}
-\contentsline {part}{VII\hspace {1em}OER in the Mobile Era: Content Repositories' Features for Mobile Devices and Future Trends}{57}
-\contentsline {chapter}{\numberline {6}OER in the Mobile Era: Content Repositories' Features for Mobile Devices and Future Trends}{59}
-\contentsline {section}{\numberline {6.1}Introduction}{60}
-\contentsline {section}{\numberline {6.2}Literature review on learning objects for mobile devices}{60}
-\contentsline {subsection}{\numberline {I}Method}{60}
-\contentsline {subsection}{\numberline {II}Results}{60}
-\contentsline {subsubsection}{Creation of contents}{60}
-\contentsline {subsubsection}{Publication of contents}{60}
-\contentsline {subsubsection}{Content allocation}{60}
-\contentsline {subsubsection}{Standards for content packaging, delivery and sequencing}{60}
-\contentsline {subsubsection}{Architectures framing mobile content delivery}{60}
-\contentsline {subsubsection}{Content repositories and ubiquitous computing}{60}
-\contentsline {section}{\numberline {6.3}A survey to OER repository owners on mobile usage}{60}
-\contentsline {subsection}{\numberline {I}Method}{60}
-\contentsline {subsection}{\numberline {II}Results}{60}
-\contentsline {section}{\numberline {6.4}What mobile features are providing the main OER repositories}{60}
-\contentsline {section}{\numberline {6.5}Discussion and Conclusions}{60}
-\contentsline {chapter}{References}{61}
+\contentsline {subsection}{\numberline {I}How to design mobile notifications for student reflection support}{41}
+\contentsline {section}{\numberline {1.2}Study 1: Embedding reflection in everyday activity via SMS notifications}{42}
+\contentsline {subsection}{\numberline {I}Method}{42}
+\contentsline {subsubsection}{Participants}{42}
+\contentsline {subsubsection}{Materials}{42}
+\contentsline {subsubsection}{Design}{43}
+\contentsline {subsubsection}{Procedure}{43}
+\contentsline {subsection}{\numberline {II}Results}{45}
+\contentsline {subsubsection}{Participation}{45}
+\contentsline {subsubsection}{Intensity of the learning day and channels used}{47}
+\contentsline {subsubsection}{Episodes of introspective reflection}{47}
+\contentsline {section}{\numberline {1.3}Study 2: Experimental study on reflection in-action with mobile notifications}{49}
+\contentsline {subsection}{\numberline {I}Method}{49}
+\contentsline {subsubsection}{Participants}{49}
+\contentsline {subsubsection}{Materials}{51}
+\contentsline {subsubsection}{Design}{51}
+\contentsline {subsubsection}{Procedure}{53}
+\contentsline {subsubsection}{Measure instruments}{54}
+\contentsline {subsection}{\numberline {II}Results}{55}
+\contentsline {subsubsection}{Reflecting in-action with mobile notifications}{55}
+\contentsline {section}{\numberline {1.4}Discussion and conclusions}{58}
+\contentsline {part}{III\hspace {1em}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{63}
+\contentsline {chapter}{\numberline {2}Tap it again, Sam: harmonizing personal environments towards lifelong learning}{65}
+\contentsline {section}{\numberline {2.1}Introduction}{66}
+\contentsline {section}{\numberline {2.2}Literature Review In Nfc Technology For Learning}{66}
+\contentsline {subsection}{\numberline {I}Formal Education}{66}
+\contentsline {subsection}{\numberline {II}Guided Tours And Fieldtrips}{66}
+\contentsline {subsection}{\numberline {III}User Identification}{66}
+\contentsline {subsection}{\numberline {IV}Activity Recognition \& Life Logging}{66}
+\contentsline {subsection}{\numberline {V}Smart Home}{66}
+\contentsline {subsection}{\numberline {VI}Support Of Disabled People}{66}
+\contentsline {subsection}{\numberline {VII}Payment Systems And Simulations}{66}
+\contentsline {subsection}{\numberline {VIII}Logistics \& Object Identification}{66}
+\contentsline {subsection}{\numberline {IX}Results Of The Review}{66}
+\contentsline {section}{\numberline {2.3}A Seamless Ecology To Learn From Videos}{66}
+\contentsline {subsection}{\numberline {I}The NFC MediaPlayer}{66}
+\contentsline {subsection}{\numberline {II}Implementation}{66}
+\contentsline {section}{\numberline {2.4}Discussion and Conclusions}{66}
+\contentsline {part}{IV\hspace {1em}Binding daily physical environments to learning activities with mobile and sensor technology}{67}
+\contentsline {chapter}{\numberline {3}Binding Daily Physical Environments To Learning Activities With Mobile And Sensor Technology}{69}
+\contentsline {section}{\numberline {3.1}Introduction}{70}
+\contentsline {subsection}{\numberline {I}Using NFC Sensor Tags For Bridging Seams And Natural Interaction}{70}
+\contentsline {section}{\numberline {3.2}Design Of The NFC LearnTracker}{70}
+\contentsline {subsection}{\numberline {I}Self-Regulation Across Contexts With Mobile Learning Analytics}{70}
+\contentsline {subsubsection}{Set Goals}{70}
+\contentsline {subsubsection}{Perform Learning Activities}{70}
+\contentsline {subsubsection}{Monitor Learning Activities}{70}
+\contentsline {subsection}{\numberline {II}An Open Source Architecture Facilitating Extension Across NFC Readers And NFC tags}{70}
+\contentsline {section}{\numberline {3.3}Formative Evaluation}{70}
+\contentsline {section}{\numberline {3.4}Conclusions And Future Work}{70}
+\contentsline {part}{V\hspace {1em}Supporting Lifelong Learners To Build Personal Learning Ecologies In Daily Physical Spaces}{71}
+\contentsline {chapter}{\numberline {4}Supporting Lifelong Learners To Build Personal Learning Ecologies In Daily Physical Spaces}{73}
+\contentsline {section}{\numberline {4.1}Introduction}{74}
+\contentsline {section}{\numberline {4.2}A Questionnaire For Lifelong Learners}{74}
+\contentsline {subsection}{\numberline {I}Method}{74}
+\contentsline {subsection}{\numberline {II}Results}{74}
+\contentsline {subsubsection}{The concept of 'lifelong learning'}{74}
+\contentsline {subsubsection}{Patterns based on type of device, lifelong learners' behaviour and timing}{74}
+\contentsline {subsubsection}{Linking locations, activities and ways of interaction with mobile devices}{74}
+\contentsline {subsubsection}{At home}{74}
+\contentsline {subsubsection}{Waiting}{74}
+\contentsline {subsubsection}{On-the-move}{74}
+\contentsline {subsubsection}{Gender}{74}
+\contentsline {subsubsection}{Missing Learning Activities}{74}
+\contentsline {subsubsection}{Difficulties When Learning With Mobile Devices}{74}
+\contentsline {section}{\numberline {4.3}A Review On Smart Objects For Learning}{74}
+\contentsline {subsection}{\numberline {I}At home}{74}
+\contentsline {subsubsection}{In the the classroom \& workplace}{74}
+\contentsline {section}{\numberline {4.4}Conclusions}{74}
+\contentsline {part}{VI\hspace {1em}Where Is My Time? Identifying Productive Time Of Lifelong Learners For Effective Feedback Services}{75}
+\contentsline {chapter}{\numberline {5}Where Is My Time? Identifying Productive Time of Lifelong Learners for Effective Feedback Services}{77}
+\contentsline {section}{\numberline {5.1}Introduction}{78}
+\contentsline {section}{\numberline {5.2}A Classification Framework For Modelling Lifelong Learners\IeC {\textquoteright } Day}{78}
+\contentsline {subsection}{\numberline {I}Receive notification}{78}
+\contentsline {subsection}{\numberline {II}Dispatch question}{78}
+\contentsline {subsection}{\numberline {III}Provide answer}{78}
+\contentsline {section}{\numberline {5.3}Qualitative study}{78}
+\contentsline {subsection}{\numberline {I}Introduction}{78}
+\contentsline {subsection}{\numberline {II}Method}{78}
+\contentsline {subsubsection}{Participants}{78}
+\contentsline {subsubsection}{Materials}{78}
+\contentsline {subsubsection}{Design}{78}
+\contentsline {subsubsection}{Procedure}{78}
+\contentsline {subsection}{\numberline {III}Results}{78}
+\contentsline {section}{\numberline {5.4}Discussion and Conclusions}{78}
+\contentsline {part}{VII\hspace {1em}OER in the Mobile Era: Content Repositories' Features for Mobile Devices and Future Trends}{79}
+\contentsline {chapter}{\numberline {6}OER in the Mobile Era: Content Repositories' Features for Mobile Devices and Future Trends}{81}
+\contentsline {section}{\numberline {6.1}Introduction}{82}
+\contentsline {section}{\numberline {6.2}Literature review on learning objects for mobile devices}{82}
+\contentsline {subsection}{\numberline {I}Method}{82}
+\contentsline {subsection}{\numberline {II}Results}{82}
+\contentsline {subsubsection}{Creation of contents}{82}
+\contentsline {subsubsection}{Publication of contents}{82}
+\contentsline {subsubsection}{Content allocation}{82}
+\contentsline {subsubsection}{Standards for content packaging, delivery and sequencing}{82}
+\contentsline {subsubsection}{Architectures framing mobile content delivery}{82}
+\contentsline {subsubsection}{Content repositories and ubiquitous computing}{82}
+\contentsline {section}{\numberline {6.3}A survey to OER repository owners on mobile usage}{82}
+\contentsline {subsection}{\numberline {I}Method}{82}
+\contentsline {subsection}{\numberline {II}Results}{82}
+\contentsline {section}{\numberline {6.4}What mobile features are providing the main OER repositories}{82}
+\contentsline {section}{\numberline {6.5}Discussion and Conclusions}{82}
+\contentsline {chapter}{References}{83}
 \vspace \bigskipamount 
-\contentsline {chapter}{Summary}{69}
+\contentsline {chapter}{Summary}{95}
