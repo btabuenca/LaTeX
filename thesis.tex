@@ -42,58 +42,27 @@
 	\include{./chapters/Introduction}
 		\clearpage{\pagestyle{empty}\cleardoublepage}
 
-%	\part{Exploring Mobile Usage Patterns And Learning Spaces }
-%		\include{./chapters/ThinkingOutsideTheBox}
-%			\clearpage{\pagestyle{empty}\cleardoublepage}
-			
-%	\part{ Authoring and Exploring Open Educational Resources}
-%		\include{./chapters/ExpertConceptMappingStudy}
-%			\clearpage{\pagestyle{empty}\cleardoublepage}
 
-
-	\part{Mobile authoring of OER for authentic learning scenarios}
-		\include{./chapters/MobileAuthoring}
-			\clearpage{\pagestyle{empty}\cleardoublepage}	
-
-	\part{Stop and Think: Exploring Mobile Notifications to Foster Reflective Practice on Meta-Learning}
-		\include{./chapters/Notifications}
-			\clearpage{\pagestyle{empty}\cleardoublepage}				
-						
-	\part{Tap it again, Sam: harmonizing personal environments towards lifelong learning}
-		\include{./chapters/NFCreview}
-			\clearpage{\pagestyle{empty}\cleardoublepage}				
-
-	\part{Binding daily physical environments to learning activities with mobile and sensor technology}
-		\include{./chapters/NFCLearnTracker}
-			\clearpage{\pagestyle{empty}\cleardoublepage}	
-			
-
-	\part{Supporting Lifelong Learners To Build Personal Learning Ecologies In Daily Physical Spaces}
+	\part{Theoretical approach}
 		\include{./chapters/Survey}
-			\clearpage{\pagestyle{empty}\cleardoublepage}	
-			
-
-	\part{Where Is My Time? Identifying Productive Time Of Lifelong Learners For Effective Feedback Services}
-		\include{./chapters/Esm}
-			\clearpage{\pagestyle{empty}\cleardoublepage}	
-
-
-	\part{OER in the Mobile Era: Content Repositories' Features for Mobile Devices and Future Trends}
 		\include{./chapters/OERrepos}
-			\clearpage{\pagestyle{empty}\cleardoublepage}	
-
-
-						
-
-%	\part{BINDING TIME, SPACE, RESOURCES AND SELF-MODELLED FEEDBACK IN DAILY PERSONAL LEARNING ENVIRONMENTS}
-%		\include{./chapters/Discussion}
-%			\clearpage{\pagestyle{empty}\cleardoublepage}	
-
-
-	% Bernardooooo You are adding here your stuff. END
+		\include{./chapters/NFCreview}
+		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		\addtocontents{toc}{\protect\newpage}
+		
+	\part{Formative studies}
+		\include{./chapters/MobileAuthoring}
+		\include{./chapters/Esm}
+		\include{./chapters/NFCLearnTracker}		
+		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		\addtocontents{toc}{\protect\newpage}
 	
+	\part{Empirical findings}
+		\include{./chapters/Notifications}
+		\include{./chapters/Studyload}
+		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		\addtocontents{toc}{\protect\newpage}
 
-	
 \backmatter
 
 	\bibliographystyle{apalike} % THIS sets the bibliography style. requires natbib in the header file.
@@ -104,7 +73,11 @@
 	\addtocontents{toc}{\bigskip}
 	\clearpage{\pagestyle{empty}\cleardoublepage}
 
-	\include{./chapters/Summary}
-		\clearpage{\pagestyle{empty}\cleardoublepage}
+	\appendix
+		\include{./chapters/Appendix}
+		\include{./chapters/Summary}
+		\include{./chapters/Samenvatting}
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+	\clearpage{\pagestyle{empty}\cleardoublepage}
 
 \end{document}
