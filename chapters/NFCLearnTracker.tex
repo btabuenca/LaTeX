@@ -57,7 +57,8 @@ The NFC LearnTracker has been designed based on the seamless notion that lifelon
 
 \cite{Butler1995} describe the Self-Regulated Learning Model as an iterative process comprising four sequential stages: 1) interpretation of own learning paths and task queuing; 2) cognitive process of defining goals and monitoring the progress; 3) perform the learning activity; 4) interpretation of external feedback. Similar and focusing on lifelong learners, \cite{Candy1991} proposes a learner-centric model with four stages (See section 1). Hereby we describe in a narrative way \citep{Carroll1999} how these stages have been covered with the NFC LearnTracker using the scenario of Miguel, a PhD student aiming to combine daily life activity (family, work, leisure) with learning activities towards the accomplishment of his doctoral degree.
 \begin{figure}
-     \includegraphics[width=1\linewidth]{img/nfclt_fig1}
+     \centering
+     \includegraphics[width=0.9\linewidth]{img/nfclt_fig1}
      \caption{Catpioooooooooooooonnnnnnnnnn}
      \label{fig:1}
 \end{figure}
@@ -66,7 +67,8 @@ Miguel wants to improve his academic writing, develop his skills to make effecti
 
 In this stage (first box in figure 1), Miguel reflects on his learning style mapping learning goals to frequently used learning environments and tagging them with NFC tags (See examples in figure 3). Whenever Miguel configures his goals in the NFC LearnTracker, he takes a NFC tag, taps it with his NFC enabled mobile device so the interface in figure 2a is displayed. He characterizes the goal with a name, specifies the expected outcome when he accomplishes the goal, foresees how much time (in minutes) will he devote to this goal on daily basis, and finally indicates his expected date to finish the goal. Sticking a NFC tag on a physical learning object enables the connection of a variety of tracking data with the learning activity as Miguel can identify how much time does he use a specific device for reading (e.g. tablet, book, laptop), the location where he devotes more time to learn or the least productive days of the week. The learning goals dashboard (figure 2b) lists all the goals configured by the user.
 \begin{figure}
-     \includegraphics[width=1\linewidth]{img/nfclt_fig2}
+     \centering
+     \includegraphics[width=0.9\linewidth]{img/nfclt_fig2}
      \caption{Catpioooooooooooooonnnnnnnnnn}
      \label{fig:2}
 \end{figure}
@@ -75,14 +77,16 @@ Miguel, as most of the lifelong learners \citep{Tabuenca2013}, recurs to specifi
 
 In this stage (second box in figure 1) Miguel taps the associated NFC-tag every time he wants to start \em check-in \em / stop \em check-out \em a learning activity. Figure 2c illustrates with a red dot the moment in which time devoted to the goal “ \em Academic Writing \em ” is being recorded as an effect of tapping the tag once. The history of the subsequent events is registered as a log.
 \begin{figure}
-     \includegraphics[width=1\linewidth]{img/nfclt_fig3}
+     \centering
+     \includegraphics[width=0.9\linewidth]{img/nfclt_fig3}
      \caption{Catpioooooooooooooonnnnnnnnnn}
      \label{fig:3}
 \end{figure}
 \subsubsection{Monitor learning activities}
 The NFC LearnTracker features learning analytics when defined as “ \em the measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimising learning and the environments in which it occurs \em ”\footnote{1st International Conference on Learning Analytics and Knowledge. International Conference on Learning Analytics and Knowledge. p. 2011, Alberta (2011)}. Monitoring the state in learning activity can motivate the user towards the accomplishment of a learning goal. By comparing evolving states of a task to goals creates conditional knowledge that is the basis for further action. This cognitive process has been defined as “ \em internal feedback \em ” \citep{Butler1995}, “ \em self monitoring \em ”, and “ \em understanding how to learn \em ” \citep{Candy1991} in the previously cited self-regulation models. The cues identified by the user in this process facilitate the recognition of his learning patterns and as a result, the constant update of his autobiography as a learner.
 \begin{figure}
-     \includegraphics[width=1\linewidth]{img/nfclt_fig4}
+     \centering
+     \includegraphics[width=0.9\linewidth]{img/nfclt_fig4}
      \caption{Catpioooooooooooooonnnnnnnnnn}
      \label{fig:4}
 \end{figure}
@@ -97,7 +101,8 @@ There is a huge number of NFC tags available in the market. An NFC tag is a smal
 
 There is no way to create an app capable to interpret the information encoded in every NFC tag available on the market. Nevertheless, it is possible to provide suitable guidance on how to extend the software to be compatible with further tags and readers. All NFC enabled phones currently on the market can read a web address (URI) or text. The NFC LearnTracker features NFC standards [24] (Figure 5), namely, \em UriRecord \em tag is used to launch an URL in the mobile’s browser, \em TexRecord \em tag is used to complete a text field within an app in the mobile, and \em SmartPosters \em tags is used in public static commercials to launch multimedia on user’s device. Moreover, the LearnTracker has been developed following an architecture that facilitates its extension to more complex NFC tasks like command execution, and to enable the compatibility across NFC-tags and NFC-readers. When extending the use of tool to a new tag standart type, a new class must be created implementing the interface \em IParseNdefRecord \em so the methods \em getId() \em to indicate a unique identifier for the tag (e.g. http://www.ou.nl/293903843), \em getType() \em to indicate the name of the standard type (e.g. UriRecord), and \em getColor() \em to indicate the colour in RGB hex that will be used in the charts to identify the mapped goal (e.g. acdced).
 \begin{figure}
-     \includegraphics[width=1\linewidth]{img/nfclt_fig5}
+     \centering
+     \includegraphics[width=0.9\linewidth]{img/nfclt_fig5}
      \caption{Catpioooooooooooooonnnnnnnnnn}
      \label{fig:5}
 \end{figure}

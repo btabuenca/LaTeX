@@ -105,3 +105,12 @@
   \null\vfil
   \secdef\@part\@spart}
 \makeatother
+
+% Thicker line
+\makeatletter
+\newcommand{\thickhline}{%
+    \noalign {\ifnum 0=`}\fi \hrule height 1pt
+    \futurelet \reserved@a \@xhline
+}
+\newcolumntype{"}{@{\hskip\tabcolsep\vrule width 1pt\hskip\tabcolsep}}
+\makeatother
