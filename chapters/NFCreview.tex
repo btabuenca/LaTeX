@@ -105,23 +105,27 @@ The coffee card application is a combination of a prepaid service and loyalty ca
 The ten-year academic review conducted by \cite{Ngai2008} reveals the increasing importance of this technology in the field of logistics. As a consequence of this review, the authors highlight RFID technology as a hot topic in the field of retailing, library services, animal detection, food, and supply chain management. More specific, the work from \cite{Ting2011} reviews the use of RFID in medical organizations for the purpose of managing and tracking medical equipment, monitoring and identifying patients, ensuring that the right medication is given to the right patient, and preventing the use of counterfeit medicine. Additionally, the author presents an exploratory case study conducted in a medical organization offering valuable insight on the use of RFID in medical organizations. The work from \cite{Bacheldor2006} describes an implementation on how to locate medical assets by using an RFID-based real-time location system.
 \subsection{Results of the review}
 The results of the review envision a trend in which mobile devices are mostly used for reading tags in the last years in contrast to early years where fixed static external readers where used to decode tag. Table \ref{tbl:table2} shows that mobile-to-mobile NFC transfer does not seem to be a frequently implemented practice yet. On the other hand, the most common implementation is the enrichment of tangible objects with NFC tags to be later interpreted as a command by a mobile device. These command are normally associated with third party resources that trigger a subsequent action like inserting data on a database, providing feedback, a description of the object that is tapped or sharing the action in social networks. Additionally, we can observe that mobile devices are mostly used for reading other tags, but not yet commonly used for dropping (writing) information on them.
-\begin{table}[h]
+
+
+\begin{sidewaystable}
   \centering
-  \small
+  \footnotesize
   \caption{Classification of ecologies by type of NFC interaction}
 \begin{tabular}{rllll}
 \thickhline
-\textbf{NFC Interaction}                                               & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Mobile \\ to mob.\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Mobile\\ to tag\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Ext.read\\ to mob.\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Ext.read\\ to tag.\end{tabular}}} \\ \thickhline
-\begin{tabular}[c]{@{}r@{}}Formal\\ education\end{tabular}             & 7                                                                                      & 7 8 9 20                                                                             &                                                                                         & 20                                                                                      \\ \hline
-\begin{tabular}[c]{@{}r@{}}Guided Tours \\ \& Field Trips\end{tabular} &                                                                                        & 10 12 14 17                                                                          & 13                                                                                      & 11                                                                                      \\ \hline
-\begin{tabular}[c]{@{}r@{}}User\\ identification\end{tabular}          &                                                                                        & 20                                                                                   &                                                                                         & 18 19                                                                                   \\ \hline
-\begin{tabular}[c]{@{}r@{}}Activity\\ recognition\end{tabular}         &                                                                                        & 21 24                                                                                &                                                                                         &                                                                                         \\ \hline
-Smart home                                                             &                                                                                        & 27                                                                                   &                                                                                         & 25 26 28 29                                                                             \\ \hline
-\begin{tabular}[c]{@{}r@{}}Disable\\ support\end{tabular}              &                                                                                        & 30 31                                                                                &                                                                                         &                                                                                         \\ \hline
-\begin{tabular}[c]{@{}r@{}}Payment and\\ simulations\end{tabular}      &                                                                                        & 15                                                                                   &                                                                                         & 32                                                                                      \\ \hline
-Logistics                                                              &                                                                                        &                                                                                      &                                                                                         & 33 35                                                                                   \\ \hline
+\textbf{\begin{tabular}[c]{@{}r@{}}NFC\\ Interaction\end{tabular}}     & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Mobile \\ to mob.\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Mobile\\ to tag\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Ext.read\\ to mob.\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Ext.read\\ to tag.\end{tabular}}} \\ \thickhline
+\begin{tabular}[c]{@{}r@{}}Formal\\ education\end{tabular}             & \cite{Ebner2013}                                                                       & \begin{tabular}[c]{@{}l@{}}\cite{Gomez2013},\\ \cite{Riekki2013},\\ \cite{Ebner2013},\\ \cite{Shen2014}\end{tabular}                                                                           &                                                                                         & \cite{Shen2014}                                                                                      \\ \hline
+\begin{tabular}[c]{@{}r@{}}Guided Tours \\ \& Field Trips\end{tabular} &                                                                                        & \begin{tabular}[c]{@{}l@{}}\cite{Andersen2013},\\ \cite{Emmanouilidis2013},\\ \cite{Kuflik2011},\\ \cite{Miyashita2008},\\ \cite{Sanchez2011a},\\ \cite{Tesoriero2014}\end{tabular}                                                                          & \cite{Garrido2011}                                                                                      & \cite{Kuflik2011}                                                                                      \\ \hline
+\begin{tabular}[c]{@{}r@{}}User\\ identification\end{tabular}          &                                                                                        & \cite{Shen2014}                                                                                   &                                                                                         & \begin{tabular}[c]{@{}l@{}}\cite{Corchado2008},\\ \cite{Sandberg2005}\end{tabular}                                                                                   \\ \hline
+\begin{tabular}[c]{@{}r@{}}Activity\\ recognition\end{tabular}         &                                                                                        & \begin{tabular}[c]{@{}l@{}}\cite{Castro2014},\\ \cite{Curiel2013},\\ \cite{TabuencaLT2014b},\\ \cite{Wang2011}\end{tabular}                                                                                &                                                                                         &                                                                                         \\ \hline
+Smart home                                                             &                                                                                        & \cite{Reitberger2014}                                                                                   &                                                                                         & \begin{tabular}[c]{@{}l@{}}\cite{Garate2005},\\ \cite{Sadri2011},\\ \cite{Tran2003},\\ \cite{Tran2004}\end{tabular}                                                                             \\ \hline
+\begin{tabular}[c]{@{}r@{}}Disable\\ support\end{tabular}              &                                                                                        & \begin{tabular}[c]{@{}l@{}}\cite{Ivanov2014},\\ \cite{Jafri2014}\end{tabular}                                                                               &                                                                                         &                                                                                         \\ \hline
+\begin{tabular}[c]{@{}r@{}}Payment and\\ simulations\end{tabular}      &                                                                                        & \cite{Andersen2013}                                                                                   &                                                                                         & \cite{Kubicki2011}                                                                                      \\ \hline
+Logistics                                                              &                                                                                        &                                                                                      &                                                                                         & \begin{tabular}[c]{@{}l@{}}\cite{Bacheldor2006},\\ \cite{Ngai2008},\\ \cite{Ting2011}\end{tabular}                                                                                   \\ \hline
 \end{tabular}
-\end{table}
+
+\end{sidewaystable}
+
 \section{A seamless learning ecology for video casting}
 In the literature review we have presented different ways on how NFC technology can facilitate seamless interactions in different contexts. Harmonizing personal learning environments is key to enable smooth access to learning contents, in particular, with natural interactions and suitable visualizations.
 
@@ -135,12 +139,25 @@ Herby, we present the NFC Media Player, an ecology of resources \citep{Luckin200
 
 \subsection{The NFC MediaPlayer}
 This section describes the NFC MediaPlayer, an Ecology of Resources (EoR) \cite{Luckin2010} in which the learner is encouraged to explore forms of available assistance in the environment. The EoR is a learner-centric approach comprising three layers (see figure \ref{fig:1}a): 1) the \em Zone of Proximal Development (ZPD) \em ; 2) the \em Zone of Proximal Adjustment (ZPA) \em ; the \em Zone of Available Assistance (ZAA) \em . 
-\begin{figure}
-     \centering
-     \includegraphics[width=0.9\linewidth]{img/nfcreview_fig1}
-     \caption{Ecology of resources}
-     \label{fig:1}
+
+\begin{center}
+\begin{figure}[ht]
+\centering
+	\subfloat[bbbb]{
+		\includegraphics[width=0.5\linewidth]{img/nfcreview_fig1a}
+		\label{fig:1a}
+	}
+	\subfloat[aaaaaa]{
+		\includegraphics[width=0.5\linewidth]{img/nfcreview_fig1b}
+		\label{fig:1b}
+	}	
+      \caption{Ecology of Resources}
+      \label{fig:2}
+	
 \end{figure}
+\end{center}
+ 
+
 ZPD represents what the user can learn by himself with his potential ability and the interactions that can arise from previous experiences. Lifelong learners are intrinsically motivated to learn and to re-design their context with the aim to optimise opportunities for interactions with social and other resources capable of assisting learners perform towards their objectives (design of ZPA \citep{Vygotsky1978}). Here is where the figure of the \em More Able Partner (MAP) \em represented by the mobile device plays a key role as the main supporter for lifelong learners. Recognising the role of the MAP is fundamental to lifelong learners since they are able to identify potential types of assistance to the learner. Likewise, the relationship between User and MAP supports the progression from ZAA to ZPA. The ZAA is described as the variety of resources within the learner's world that could provide different qualities and quantities of assistance, and that might be available to the learner at a particular point of time. 
 
 For the specific case implemented in this manuscript, NFC technology facilitates the scaffolding of learning activities bringing resources closer to the user supported by a mobile device. E.g. a user can use his/her mobile device to watch a multimedia video stored in a remote repository (ZAA) by taping with the mobile device (MAP) on a NFC tag that is bound to the content (ZPA). Figure \ref{fig:1}b illustrates the resources comprised in this model. Lifelong learners scaffold personal learning ecologies using them as follows:
@@ -154,7 +171,7 @@ This resource refers to the tools that the lifelong learner uses to learn. The N
 Luckin [39] defines filters as the constraints or restrictions that learner find to manage the \em environment \em, use \em tools \em, or acquire \em knowledge \em. In this manuscript, the filters for the NFC MediaPlayer are aligned with the three barriers enumerated above: 1) time; 2) interaction; 3) visualization.
 \begin{figure}
      \centering
-     \includegraphics[width=0.9\linewidth]{img/nfcreview_fig2}
+     \includegraphics[width=0.5\linewidth]{img/nfcreview_fig2}
      \caption{NFC MediaPlayer’s ecology of resources}
      \label{fig:2}
 \end{figure}
