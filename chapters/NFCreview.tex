@@ -183,7 +183,32 @@ This section describes the tools that conform the ecology (See figure \ref{fig:2
 In the very last months, WI-FI enabled digital media players have arrived to the market: Google Chromecast\footnote{Google Chromecast. http://www.google.com/intl/en/chrome/devices/chromecast/} (July 2013), Roku\footnote{Roku streaming stick. http://www.roku.com/products/streaming-stick} (March 2013); Apple TV\footnote{Apple TV streamcater http://www.apple.com/appletv/} (January 2013). These devices broadcast audio and video content on a High-Definition display by direct streaming via WI-FI from the Internet. These devices stream multimedia content based on the commands (Play, Pause \& Stop) triggered from another networked device (i.e. laptop, tablet, mobile). The basic operation is that using your personal device as a remote and selecting the desired multimedia, the content is automatically broadcasted in the HDMI display where the digital media player is plugged. The ecology presented in this manuscript has been developed for Google Chromecast\footnote{Google Cast SDK. https://developers.google.com/cast/docs/reference/}.
 \begin{figure}
      \centering
-     \includegraphics[width=0.9\linewidth]{img/nfcreview_fig3}
+     \footnotesize
+
+\begin{verbatim}
+{
+	"categories": [
+	{
+	"name": "Movies", 
+	"videos": [
+		{
+		"subtitle": "Published on 5 Oct 2012", 
+		"sources": 
+			[ "https://dl.dropboxusercontent.com/u/XXXXXX/sample/btb1.mp4" ],
+			"thumb": "images_480x270/btb1_480x270.png",
+			"image-480x270": "images_480x270/btb1_480x270.png",
+			"image-780x1200": "images_780x1200/btb1_780x1200.png",
+			"title": "Prof. dr. Liesbeth Kester and drs. Bernardo Tabuenca ...", 
+			"studio": "OUNL"
+	}, 
+	{
+		"subtitle": "Published on 5 Oct 2012", 
+		"sources": 
+			["https://dl.dropboxusercontent.com/u/XXXXXXX/sample/btb2.mp4" ],
+			"thumb": "images_480x270/btb1_480x270.png", 
+			"image-480x270": "images_480x270/btb1_480x270.png",
+			...
+\end{verbatim}
      \caption{NFC MediaPlayer. JSON file playlist}
      \label{fig:3}
 \end{figure}
@@ -193,23 +218,42 @@ HDMI displays facilitate the visualization of videos independently of the dimens
 The mobile phone plays the role of a remote communicating with all the previous elements in the ecology. A NFC-enabled smartphone is able to decode the command recorded in the tag (NDEF message), and trigger the action pre-mapped for that action. 
 \paragraph{NFC MediaPlayer app}
 The NFC MediaPlayer app has been developed and released\footnote{NFC MediaPlayer in Google Play. https://play.google.com/store/apps/details?id=org.ounl.lifelonglearninghub.mediaplayer} for Android mobile phones in January 2015 (Beta version). When the app starts, the JSON file (Figure \ref{fig:3}) containing the information describing the list of videos to be presented in the playlist, namely, title, subtitle, author, thumbnail images, and the URL where the video is stored, is requested to a remote webservice. 
-\begin{figure}
-     \centering
-     \includegraphics[width=0.9\linewidth]{img/nfcreview_fig4}
-     \caption{NFC MediaPlayer’s playlist}
-     \label{fig:4}
+\begin{center}
+\begin{figure}[ht]
+\centering
+	\subfloat[Tapping "\em positioning tag\em" moves forward the orange focus within the playlist screen]{
+		\includegraphics[height=0.5\linewidth]{img/nfcreview_fig4a}
+		\label{fig:4a}
+	}
+	\subfloat[Playlist screen]{
+		\includegraphics[height=0.5\linewidth]{img/nfcreview_fig4b}
+		\label{fig:4b}
+	}	
+      \caption{NFC MediaPlayer list}
+      \label{fig:4}
+	
 \end{figure}
+\end{center}
 The interface navigation within the app has two screens:
 \begin{enumerate}
 \item Playlist screen (See Figure \ref{fig:4}b). The home screen of the app. Lists the information describing the videos that can be streamcasted. When a video in the list is clicked, the cast screen with the selected video is displayed.
 \item Cast screen (Figure \ref{fig:5}b). Displays the information of the video selected in the list. The video starts when the play button starts or stops when in the pause button is clicked. The video can be moved forward or backward using the slider. The video is streamcasted to the HDMI Display depending on whether the Chromecast icon on the top right corner is selected or not.
 \end{enumerate}
-\begin{figure}
-     \centering
-     \includegraphics[width=0.9\linewidth]{img/nfcreview_fig5}
-     \caption{NFC MediaPlayer’s casting}
-     \label{fig:5}
+\begin{center}
+\begin{figure}[ht]
+\centering
+	\subfloat[Tapping "\em play tag\em" to display selected video]{
+		\includegraphics[height=0.5\linewidth]{img/nfcreview_fig5a}
+		\label{fig:5a}
+	}
+	\subfloat[Cast screen]{
+		\includegraphics[height=0.5\linewidth]{img/nfcreview_fig5b}
+		\label{fig:5b}
+	}	
+      \caption{NFC MediaPlayer cating}
+      \label{fig:5}
 \end{figure}
+\end{center}
 \paragraph{Programmable NFC Tags}
 This ecology includes five tags configured to trigger the following actions:
 \begin{itemize}

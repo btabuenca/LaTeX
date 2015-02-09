@@ -42,10 +42,23 @@ The underlying search was conducted utilizing the online research repositories o
 	\label{fig:1} 
 \end{figure}
 For a more in-depth analysis of the mobile authoring tools identified in the literature review we have compared the different granularity levels that they support in their authored educational resources. As a basis we have used modular content hierarchy from learning objects introduced by Duval \& Hodgins \cite{Duval2003a}. The result of this comparison is synthesized in table \ref{tbl:excel-table1}.
-\begin{table}
+\begin{table}[h]
+  \centering
+  \small
   \caption{Modular Content Hierarchy in mobile authored OER}
-  \label{tbl:excel-table1}
-  \includegraphics[width=\linewidth]{img/table1}
+  \label{tbl:table1}
+\begin{tabular}{lllllll}
+\thickhline
+\textbf{ } 	& \textbf{Raw media data elements} 	& \textbf{Information objects} 	& \textbf{Application objects} & \textbf{Aggregate assemblies}  & \textbf{Collection} \\ \thickhline
+\textit{Mobile Author}	& Text 									& Multiple-choice question, fill in the blanks question 											& List of questions 						& - 									& -         \\ 
+\textit{RAFT}			& Pictures, annotations 				& Learning objects (aggregation of pictures, annotations, content metadata and context metadata)	& - 										& - 									& -          \\ 
+\textit{StoryKit}		& Pictures, text, drawings, audio files & Page, that is, text enriched width multimedia														& Book/story, an aggregation of pages 		& Bookshelf, an aggregation of books 	& -          \\ 
+\textit{MPAS}			& Image, video, text 					& Multimedia slides																					& Presentation, aggregation of slides 		& - 									& -          \\ 
+\textit{MAAIMS}			& Audio, video, picture 				& Learning object																					& - 										& - 									& -          \\ 
+\textit{Quizzer}		& Text 									& Multiple-choice question																			& Quiz 										& - 									& -          \\ 
+\textit{mProducer}		& Video clips 							& Learning objects composition of video and context metadata										& Stories (aggregation of learning objects) & - 									& -          \\ 
+\textit{MoVie}			& Video, text 							& Video clip objects																				& Stories (aggregation of videos) 			& - 									& -          \\ \hline
+\end{tabular}
 \end{table}
 Resources that have a low granularity, such us \em raw media \em elements are highly reusable. \em Raw media \em elements include, pictures, text in the form of annotations, audios, video clips, metadata about content, metadata about standard (LOM, SCORM), or metadata about the context (GPS coordinates). \em Aggregate assemblies \em and \em collections \em have higher level of granularity but they are least reusable.
 
@@ -74,11 +87,18 @@ The above-presented summary shows that there is no ideal mobile authoring tool i
 \subsection{ARLearn: Cloud-based platform for mobile serious games}
 \label{sect:3_1}
 The Mobile Authoring Tool has been built upon ARLearn framework, an open source platform for authoring mobile serious games, available under the GNU Lesser GPL license \cite{Ternier2012}. ARLearn is accessible for the community as a cloud based solution where authors can, without cost, create content and deploy this content to mobile devices. Approx. 450 users have used the authoring environment to create games resulting in approx. 600 active games on the platform cloud. As illustrated in table \ref{tbl:excel-table2}, learning resources in ARLearn are classified according to four different granularities in the model of content hierarchy \cite{Duval2003a}. We will further describe these objects providing some examples in the scientific literature where this platform has been used.
-\begin{table}
+\begin{table}[h]
+  \centering
+  \small
   \caption{Granularity of learning resources in \em MAT for ARLearn \em}
-  \label{tbl:excel-table2}
-  \includegraphics[width=\linewidth]{img/table2}
+  \label{tbl:table1}
+\begin{tabular}{lllllll}
+\thickhline
+\textbf{ } 	& \textbf{Raw media data elements} 	& \textbf{Information objects} 	& \textbf{Application objects} & \textbf{Aggregate assemblies}  & \textbf{Collection} \\ \thickhline
+\textit{MAT for ARLearn}			& Pictures, text, drawings, audio files 	& Audio item, Video item, Multiple-choice, Text item	& Game 			& Set of games	& -          \\ \hline
+\end{tabular}
 \end{table}
+
 ARLearn was extended with an open repository where users can make games open, license it properly and share these with their peers. ARLearn has ben used in several authentic learning scenarios: 
 \begin{itemize}
 \item Recently, Schmitz et al. \cite{Schmitz2013} investigated role-playing on helping behavior with a mobile learning game to train basic life support and cardiopulmonary resuscitation. With this game they aimed at improving willingness to help in case of emergency (Figure 2).

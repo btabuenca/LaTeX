@@ -58,38 +58,82 @@ The NFC LearnTracker has been designed based on the seamless notion that lifelon
 \cite{Butler1995} describe the Self-Regulated Learning Model as an iterative process comprising four sequential stages: 1) interpretation of own learning paths and task queuing; 2) cognitive process of defining goals and monitoring the progress; 3) perform the learning activity; 4) interpretation of external feedback. Similar and focusing on lifelong learners, \cite{Candy1991} proposes a learner-centric model with four stages (See section 1). Hereby we describe in a narrative way \citep{Carroll1999} how these stages have been covered with the NFC LearnTracker using the scenario of Miguel, a PhD student aiming to combine daily life activity (family, work, leisure) with learning activities towards the accomplishment of his doctoral degree.
 \begin{figure}
      \centering
-     \includegraphics[width=0.9\linewidth]{img/nfclt_fig1}
-     \caption{Catpioooooooooooooonnnnnnnnnn}
+     \includegraphics[width=1\linewidth]{img/nfclt_fig1}
+     \caption{UML state diagram: Life Cycle in Lifelong Learning Goal’s}
      \label{fig:1}
 \end{figure}
 \subsubsection{Set learning goals}
 Miguel wants to improve his academic writing, develop his skills to make effective presentations in public, broaden his English vocabulary, and set aside time to read scientific literature. As he engages in these learning tasks, he draws on knowledge and beliefs constructing an interpretation of each task´s properties and requirements \citep{Butler1995}. In fact, Miguel frequently introspects his autobiography as a learner to identify which learning environment fits better to which learning task upon his learning style or time availability \cite{TabuencaCAA2014}. This stage covers the “ \em Planning for learning \em ” and “ \em self awareness \em ” stages in the self-regulation model for lifelong learners \citep{Candy1991}. Analogously, \cite{Butler1995} situate the stage of “ \em setting goals \em ” within the cognitive system stressing its key importance in shaping the process of self-regulated learning.  
 
 In this stage (first box in figure 1), Miguel reflects on his learning style mapping learning goals to frequently used learning environments and tagging them with NFC tags (See examples in figure 3). Whenever Miguel configures his goals in the NFC LearnTracker, he takes a NFC tag, taps it with his NFC enabled mobile device so the interface in figure 2a is displayed. He characterizes the goal with a name, specifies the expected outcome when he accomplishes the goal, foresees how much time (in minutes) will he devote to this goal on daily basis, and finally indicates his expected date to finish the goal. Sticking a NFC tag on a physical learning object enables the connection of a variety of tracking data with the learning activity as Miguel can identify how much time does he use a specific device for reading (e.g. tablet, book, laptop), the location where he devotes more time to learn or the least productive days of the week. The learning goals dashboard (figure 2b) lists all the goals configured by the user.
-\begin{figure}
-     \centering
-     \includegraphics[width=0.9\linewidth]{img/nfclt_fig2}
-     \caption{Catpioooooooooooooonnnnnnnnnn}
-     \label{fig:2}
+\begin{center}
+\begin{figure}[ht]
+\centering
+	\subfloat[Linking a purple NFC tag to Academic Writing learning goal]{
+		\includegraphics[width=0.3\linewidth]{img/nfclt_fig2a}
+		\label{fig:2a}
+	}
+	\subfloat[Learning goals configured by the user]{
+		\includegraphics[width=0.3\linewidth]{img/nfclt_fig2b}
+		\label{fig:2b}
+	}	
+	\subfloat[“Check-in” registered for Academic Writing and event history]{
+		\includegraphics[width=0.3\linewidth]{img/nfclt_fig2c}
+		\label{fig:2c}
+	}	
+      \caption{Binding goals to tagged learning environments via NFC LearnTracker}
+      \label{fig:2}
 \end{figure}
+\end{center}
 \subsubsection{Perform learning activities}
 Miguel, as most of the lifelong learners \citep{Tabuenca2013}, recurs to specific locations (e.g. desktop, coach) and moments (e.g. waiting times, transitions) to accomplish his learning activities. In addition, Miguel is interested to know how much time he devotes to his learning goals during the day and along the week. Hence, Miguel needs a tool with natural interaction, otherwise he will not bother to track short learning moments (e.g. fifteen minutes writing, figure 3a; twenty minutes reading, figure 3b; ten minutes listening podcasts, figure 3c; three minutes watching videos, figure 3d), and as result these moments will never be accounted as learning time. Hence, the NFC LearnTracker harvests all learning moments accounting them as real learning time with frictionless interactions. Both self-regulation models \cite{Candy1991,Butler1995} situate this stage out of the scope of the cognitive system.
 
 In this stage (second box in figure 1) Miguel taps the associated NFC-tag every time he wants to start \em check-in \em / stop \em check-out \em a learning activity. Figure 2c illustrates with a red dot the moment in which time devoted to the goal “ \em Academic Writing \em ” is being recorded as an effect of tapping the tag once. The history of the subsequent events is registered as a log.
-\begin{figure}
-     \centering
-     \includegraphics[width=0.9\linewidth]{img/nfclt_fig3}
-     \caption{Catpioooooooooooooonnnnnnnnnn}
-     \label{fig:3}
+\begin{center}
+\begin{figure}[ht]
+\centering
+	\subfloat[Write an article taking the first coffee in the morning at work]{
+		\includegraphics[width=0.22\linewidth]{img/nfclt_fig3a}
+		\label{fig:3a}
+	}
+	\subfloat[Reading scientific literature during waiting times]{
+		\includegraphics[width=0.22\linewidth]{img/nfclt_fig3b}
+		\label{fig:3b}
+	}	
+	\subfloat[Listening English podcasts commuting to work, college, gym...]{
+		\includegraphics[width=0.22\linewidth]{img/nfclt_fig3c}
+		\label{fig:3c}
+	}	
+	\subfloat[Watch top presenters’ videos during commercial breaks]{
+		\includegraphics[width=0.22\linewidth]{img/nfclt_fig3d}
+		\label{fig:3d}
+	}		
+      \caption{Learning activities (write, read, listen, watch) bound to daily learning environments}
+      \label{fig:3}
 \end{figure}
+\end{center}
 \subsubsection{Monitor learning activities}
 The NFC LearnTracker features learning analytics when defined as “ \em the measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimising learning and the environments in which it occurs \em ”\footnote{1st International Conference on Learning Analytics and Knowledge. International Conference on Learning Analytics and Knowledge. p. 2011, Alberta (2011)}. Monitoring the state in learning activity can motivate the user towards the accomplishment of a learning goal. By comparing evolving states of a task to goals creates conditional knowledge that is the basis for further action. This cognitive process has been defined as “ \em internal feedback \em ” \citep{Butler1995}, “ \em self monitoring \em ”, and “ \em understanding how to learn \em ” \citep{Candy1991} in the previously cited self-regulation models. The cues identified by the user in this process facilitate the recognition of his learning patterns and as a result, the constant update of his autobiography as a learner.
-\begin{figure}
-     \centering
-     \includegraphics[width=0.9\linewidth]{img/nfclt_fig4}
-     \caption{Catpioooooooooooooonnnnnnnnnn}
-     \label{fig:4}
+\begin{center}
+\begin{figure}[ht]
+\centering
+	\subfloat[Quantity of time invested in learning goals (Percentage or overall time and number of minutes)]{
+		\includegraphics[width=0.3\linewidth]{img/nfclt_fig4a}
+		\label{fig:4a}
+	}
+	\subfloat[Distribution of learning moments along the day in the last 7 days]{
+		\includegraphics[width=0.3\linewidth]{img/nfclt_fig4b}
+		\label{fig:4b}
+	}	
+	\subfloat[Foreseen learning time (orange) versus effective time invested (in purple) on Academic Writing in the week]{
+		\includegraphics[width=0.3\linewidth]{img/nfclt_fig4c}
+		\label{fig:4c}
+	}	
+      \caption{Tag extension in NFC LearnTracker}
+      \label{fig:4}
 \end{figure}
+\end{center}
+
 In this stage (see third box in figure 1), Miguel can monitor his learning analytics on a specific goal, or as overall performance. \cite{Siemens2011} stressed that the focus of learning analytics is exclusively on the learning process. Hence, the NFC LearnTracker tracks and visualizes data about the learning process within the specific personal learning context for which they were configured by the lifelong learner, and independently from the content (subject, topic, etc.) that is learned in the process. The NFC LearnTracker features a charting library\footnote{AChartEngine Library: https://code.google.com/p/achartengine/} for Android applications facilitating the implementation of several visualizations. As of date December 2014, the NFC LearnTracker provides the following visualizations with the aim to foster understanding on learning habits, optimise learning, and, bind successful learning environments:
 \begin{enumerate}
 \item \em Percentage of time invested on each learning goal \em . Learning activities are scattered along the day in different locations or transitions. This feature provides lifelong learners an overall summary on how much time is devoted to learning goals. Figure 4a illustrates how percentage of total time and number of minutes are presented in a pie chart. This visualization can be used by lifelong learners to compare time invested on his learning goals, identify priorities to accomplish goals, and, patterns regarding preferences for specific learning environments, devices or learning activities (read, watch, write, listen).
@@ -99,11 +143,11 @@ In this stage (see third box in figure 1), Miguel can monitor his learning analy
 \subsection{An open source architecture facilitating extension across NFC readers and tags}
 There is a huge number of NFC tags available in the market. An NFC tag is a small passive (no battery) device that contains a microchip attached to a small loop antenna. When an NFC reader such as a mobile phone scans the tag, it powers up and wirelessly transfers information such as a web address, text or a command for an app. NFC tags are typically printed stickers, but they can be also enclosed in NFC products such as wristbands, hang tags and other artefacts. 
 
-There is no way to create an app capable to interpret the information encoded in every NFC tag available on the market. Nevertheless, it is possible to provide suitable guidance on how to extend the software to be compatible with further tags and readers. All NFC enabled phones currently on the market can read a web address (URI) or text. The NFC LearnTracker features NFC standards [24] (Figure 5), namely, \em UriRecord \em tag is used to launch an URL in the mobile’s browser, \em TexRecord \em tag is used to complete a text field within an app in the mobile, and \em SmartPosters \em tags is used in public static commercials to launch multimedia on user’s device. Moreover, the LearnTracker has been developed following an architecture that facilitates its extension to more complex NFC tasks like command execution, and to enable the compatibility across NFC-tags and NFC-readers. When extending the use of tool to a new tag standart type, a new class must be created implementing the interface \em IParseNdefRecord \em so the methods \em getId() \em to indicate a unique identifier for the tag (e.g. http://www.ou.nl/293903843), \em getType() \em to indicate the name of the standard type (e.g. UriRecord), and \em getColor() \em to indicate the colour in RGB hex that will be used in the charts to identify the mapped goal (e.g. acdced).
+There is no way to create an app capable to interpret the information encoded in every NFC tag available on the market. Nevertheless, it is possible to provide suitable guidance on how to extend the software to be compatible with further tags and readers. All NFC enabled phones currently on the market can read a web address (URI) or text. The NFC LearnTracker features NFC standards [24] (Figure 5), namely, \em UriRecord \em tag is used to launch an URL in the mobile’s browser, \em TexRecord \em tag is used to complete a text field within an app in the mobile, and \em SmartPosters \em tags is used in public static commercials to launch multimedia on user’s device. Moreover, the LearnTracker has been developed following an architecture that facilitates its extension to more complex NFC tasks like command execution, and to enable the compatibility across NFC-tags and NFC-readers. When extending the use of tool to a new tag standart type, a new class must be created implementing the interface \em IParseNdefRecord \em so the methods \em getId() \em to indicate a unique identifier for the tag (e.g. http://www.ou.nl/293903843), \em getType() \em to indicate the name of the standard type (e.g. UriRecord), and \em getColor() \em to indicate the colour in RGB hex that will be used in the charts to identify the mapped goal (e.g. "acdced" for a light blue tag).
 \begin{figure}
      \centering
      \includegraphics[width=0.9\linewidth]{img/nfclt_fig5}
-     \caption{Catpioooooooooooooonnnnnnnnnn}
+     \caption{Tag extension in NFC LearnTracker}
      \label{fig:5}
 \end{figure}
 \section{Formative evaluation}
@@ -113,14 +157,19 @@ Finally an open discussion was proposed around the following two questions: (1) 
 
 A second question 2 proposed a discussion about (2) “ \em In which learning scenarios do you consider this tool can be applied? \em ”. Participant\#1 suggested extending the scope of the mobile tool from self-regulation to a scenario in formal education. “ \em Books in secondary school could be NFC-tagged so that the teachers could use this tool to get a grasp on which subjects do students invest more/less time in their homework \em ”. Participant\#9 stressed the importance of the tool for self-awareness “ \em this tool could help me to establish some limits to the time I invest in non-academic tasks versus the time I invest in academic tasks \em ”. Participant\#3 stated, “ \em Sometimes you are so tied up with concrete projects that you really need to stop, reflect and organize your learning goals. This tool can be not only used to organize your learning time but also any other daily life activity \em ”. Upon all these statements, several participants pinpointed to the learning analytics illustrated in figure 4 as a very interesting feature to quantify your learning style and become aware of the time devoted to learning activities in long term.
 \begin{table}[h]
-  \caption{Captiooooooooooooooooon}
+  \caption{Evaluation of the tool with 5-likert scale (5:“strongly agree”, 1:“strongly disagree”)}
   \label{tbl:nfclt_table1}
 \begin{tabular}{lllll}
-\hline
-\textbf{Potentials of the tool} & \multicolumn{1}{c}{\textbf{SD}} & \textbf{AVG}              & \textbf{} & \textbf{} \\ \hline
-111                             & 1111                            & 111                       &           &           \\ \hline
-222                             & 222                             & 222                       &           &           \\ \hline
-333                             & 3333                            & \multicolumn{1}{r}{33333} &           &           \\ \hline
+\thickhline
+\textbf{Potentials of the tool} 											& \multicolumn{1}{c}{\textbf{SD}}						& \multicolumn{1}{r}{\textbf{AVG}}              & \textbf{} & \textbf{} \\ \thickhline
+Manage learning goals                             							& \multicolumn{1}{r}{0.84}                            	& \multicolumn{1}{r}{3.36}                       &           &           \\ 
+Foster awareness on preferred learning environments     					& \multicolumn{1}{r}{0.70}                           & \multicolumn{1}{r}{3.79}                       &           &           \\ 
+Integrate learning with daily life activities           					& \multicolumn{1}{r}{0.61}                             & \multicolumn{1}{r}{3.29}                       &           &           \\ 
+Learn across contexts                             							& \multicolumn{1}{r}{0.78}                             & \multicolumn{1}{r}{3}                       &           &           \\ 
+Set aside time to learn on regular basis                             		& \multicolumn{1}{r}{1}                             & \multicolumn{1}{r}{3.07}                       &           &           \\ 
+Adjust goals high enough to challenge but not so high to frustrate you      & \multicolumn{1}{r}{1.12}                             & \multicolumn{1}{r}{3.21}                       &           &           \\ 
+Set mini-goal along the way                             					& \multicolumn{1}{r}{0.73}                             & \multicolumn{1}{r}{3.93}                       &           &           \\ 
+Overall rating                             									& \multicolumn{1}{r}{0.75}                             & \multicolumn{1}{r}{3.43}                       &           &           \\ \thickhline
 \end{tabular}
 \end{table}
 \section{Conclusions and future work}
