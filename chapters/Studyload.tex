@@ -1,4 +1,4 @@
-\chapter{Time Will Tell: The role of mobile learning analytics in self-regulated learning} 
+\chapter{Time will tell: The role of mobile learning analytics in self-regulated learning} 
 
 \vfill
 This longitudinal study explores the effects of tracking and monitoring time devoted to learning with a mobile tool on self-regulated learning. Graduate students (N=36) from three different online courses used their own mobile devices to track how much time they devoted to learning over a period of two to four months. Repeated measures of the Online Self-Regulated Learning Questionnaire (OSLQ) and Validity and Reliability of Time Management Questionnaire (VRTMQ) were taken along the courses. Our findings reveal positive effects of tracking time on skills/knowledge in time management. Variations in the channel, content and timing of the mobile notifications for self-reflection are investigated and time-logging patterns are described with regard to the impact of the notifications offered to students. These results not only provide evidence of the benefits of recording learning time, but also suggest relevant cues on how mobile notifications should be designed and prompted towards self-regulation of students in online courses.
@@ -11,12 +11,16 @@ Tabuenca, B., Kalz, M., Drachsler, H., \& Specht, M. (Submitted as full paper). 
 
 \section{Introduction}
 One of the main challenges in the field of Technology Enhanced Learning is the recognition of the activities and contexts of learners \citep{Kalz2014}. Lifelong learners constantly change their learning context, location, goals, environments, and also learning technologies. Lifelong learners have to combine their professional activities with learning activities and must engage simultaneously with family times to ensure a balance of adults’ responsibilities, overall wellbeing and their personal development. In this scenario a student taking part in an online course might start the day during travel with the reading of the course textbook, continue at work joining an online discussion of a specific problem during the coffee break, and finish in the evening watching video contents of the course while laid on the sofa during the commercial breaks. These short learning episodes during one day are a representative picture of lifelong learning as a whole. Learners are active in scattered moments, in different learning contexts, in different learning formats, and with different learning technologies. 
+
 Despite a growing body of research predicting \citep{Hachey2015}, describing \citep{Wresch2005,Yang2015,Hung2008}, or providing suitable guidance on patterns of behaviour to support the learning process in online learning environments (i.e. learning management systems \citep{Brusilovsky2007} or MOOCs \citep{Gillani2014}), little is known on how students devote their time to learn across contexts beyond the boundaries of the virtual platform. 
-\cite{Longworth2013} stresses the importance of lifelong learning for the twenty-first century enumerating six barriers (B1-B6) to lifelong learning as important action points to be addressed by research and developmental activities: B1) lack of personalisation; B2) time and place; B3) lack of facilities to study at home; B4) fragmentation in learning experiences; B5) health and age; B6) lack of finance. More recently, \cite{Kalz2014} mapped these barriers to technologies suggesting the adoption of \em mobile and contextualized learning\em as key solution towards dismantling barriers B1, B2, B3 and B4.
+
+\cite{Longworth2013} stresses the importance of lifelong learning for the twenty-first century enumerating six barriers (B1-B6) to lifelong learning as important action points to be addressed by research and developmental activities: B1) lack of personalisation; B2) time and place; B3) lack of facilities to study at home; B4) fragmentation in learning experiences; B5) health and age; B6) lack of finance. More recently, \cite{Kalz2014} mapped these barriers to technologies suggesting the adoption of \em mobile and contextualized learning \em as key solution towards dismantling barriers B1, B2, B3 and B4.
+
 Indeed, the mobile device is probably the only artifact coexisting with the learner in all scattered learning moments and learning contexts throughout the day. Hereby, we propose using personal mobile devices to log the time devoted to learn as a suitable approach to obtain accurate measures on how do students enrolled in online courses learn independently of the material they are using (i.e. paper notes, tablet, course book, computer), independently of the location (i.e. waiting times, commuting, workplace, home) and independently of the duration of the learning session (i.e. 1 to n minutes). 
 
 \subsection{Mobile support for self-regulated learning}
-\em Learning to learn\em  is one of the eight key competences for lifelong learning \citep{EuropeanCommission2007}. It is described as the ability to pursue and persist in learning, to organise one’s own learning, including through effective management of time and information. This competence is closely bound to the concept of self-regulated learning when defined as students' proactive actions aimed at acquiring and applying information or skills that involve setting goals, self-monitoring, managing time and regulating one’s effort towards learning goal fulfilment \citep{Winne2001,Zimmerman1990}. In this manuscript personal mobile devices are instantiated as instruments to log and keep track of the time devoted to learn as a measure to foster self-regulation in online courses.
+\em Learning to learn \em  is one of the eight key competences for lifelong learning \citep{EuropeanCommission2007}. It is described as the ability to pursue and persist in learning, to organise one’s own learning, including through effective management of time and information. This competence is closely bound to the concept of self-regulated learning when defined as students' proactive actions aimed at acquiring and applying information or skills that involve setting goals, self-monitoring, managing time and regulating one’s effort towards learning goal fulfilment \citep{Winne2001,Zimmerman1990}. In this manuscript personal mobile devices are instantiated as instruments to log and keep track of the time devoted to learn as a measure to foster self-regulation in online courses.
+
 This study introduces the following features with the aim to investigate variations and best practices in mobile and contextualized learning as an approach to dismantle the barriers (B1-B4) for lifelong learning \citep{Kalz2014}:
 
 \subsubsection{Psychology of notifications}
@@ -63,14 +67,16 @@ The LearnTracker Backend is accessible for the community as a cloud based soluti
 
 \textbf{Database model}. The LeanTracker Backend features the following tables (figure \ref{fig:sload_2}):
 \begin{itemize}
+
 \item Subject. This table includes the information that defines the yardstick (figure \ref{fig:sload_3a}) in a course. The field \em subject\_desc \em is the course identifier (e.g. “NS2322”). \em subject\_task\_desc \em  is a short description of the assignment within the course (e.g. “2.2 Geometry”),  \em subject\_task\_alternative\_desc \em  is an extended description of the assignment (e.g. “Getting to know ArcGIS and Georeferencing”),  \em subject\_task\_date\_start \em is the date in which the assignment is scheduled to start in milliseconds (e.g. “1418014800000” would be the 8th December of 2014),  \em subject\_task\_time\_duration  \em is the duration of the assignment as foreseen by the teacher in milliseconds (e.g. “7200000” would be 3 hours), \em subject\_task\_level \em is a numeric field aimed to build hierarchies within the assignments (e.g. “0” would be the most generic level in the hierarchy. “1” would be one level nested within the generic level),  \em subject\_task\_order \em is the order in which the assignments are presented in the yardstick (e.g. the item “2.2 Geometry” in figure \ref{fig:sload_3a} has order “3” in the sequence list). The records in this table are inserted when a new course is created or updated. From the course kick-off on, this table is used only for reading from the LearnTracker clients.
-\item User. This table includes the information that identifies the students enrolled in a course. The field  \em subject\_desc \em  is the course identifier in which the student is enrolled  (e.g. “NS2322”), \em user\_name \em is the name of the student (e.g. “Natalia Garcia”). \em user\_type \em  is a numeric field aimed to cluster students in groups (e.g. “0” might be the control group, “1” might be the treatment group). The records in this table are only inserted when a new course is created and new students are registered for the course. From the course kick-off on, this table is used only for reading when students log in from their LearnTracker clients for the first time.
+
 \item User. This table includes the information that identifies the students enrolled in a course. The field \em subject\_desc \em is the course identifier in which the student is enrolled  (e.g. “NS2322”),  \em user\_name \em  is the name of the student (e.g. “Natalia Garcia”).  \em user\_type \em  is a numeric field aimed to cluster students in groups (e.g. “0” might be the control group, “1” might be the treatment group). The records in this table are only inserted when a new course is created and new students are registered for the course. From the course kick-off on, this table is used only for reading when students log in from their LearnTracker clients for the first time.
+
 \item Activity. This table hosts the timestamp and duration of the learning activity for which the students record their time. The field id\_user is the name of the student, id\_subject is the assignment identifier for which the student registers time,  \em activity\_date\_checkin \em  is the timestamp in which the student recorded the learning activity in milliseconds (e.g. “1431164340000” is the “17/09/2014 at 5:39 AM)”,  \em activity\_date\_checkout \em  is the timestamp in which the student finished the learning activity in milliseconds,  \em activity\_date\_latitude \em  and \em activity\_date\_longitude \em are the coordinates in decimal degrees where the student registered the activity (e.g. somewhere studying by train in the City of Calatayud would be “41.3535300” and “-1.6431800” respectively,  \em activity\_record\_mode \em indicates whether the student is recording the activity using the synchronous option from LearnTracker client, i.e. value “0” means that the student clicked on the start button when started the activity (see play in figure \ref{fig:sload_3b}) and afterwards clicked the end button when he finished the learning activity (see stop in figure \ref{fig:sload_3c}). The asynchronous option represented by the value “1”, means that after finishing the learning activity, the student records the duration of the activity (figure \ref{fig:sload_3b}, selecting the time in the slider and using fast forward button). This table is used for reading when the LeanTracker client loads the data from the backend as well as for writing for each activity recorded.
 \end{itemize}
 \begin{figure}
      \centering
-     \includegraphics[width=0.7\linewidth]{img/studyload_fig2}
+     \includegraphics[width=0.9\linewidth]{img/studyload_fig2}
      \caption{LearnTracker's Backend database model}
      \label{fig:sload_2}
 \end{figure}
@@ -78,11 +84,14 @@ The LearnTracker Backend is accessible for the community as a cloud based soluti
 \textbf{Webservices}. The LearnTracker Backend features a set of RESTful web services with the aim to provide access to the database from any device connected via HTTP to the Internet. An API has been implemented and released to facilitate the development of further new clients (i.e. iOS, Windows, Blackberry, browser version). The API\footnote{LearnTrackers Backend RESTful API: https://apis-explorer.appspot.com/apis-explorer/?base=https://lifelong-learning-hub.appspot.com/\_ah/api\#p/}  and its commands are described in Appendix D.
 
 \subsubsection{Mobile clients}
-\textbf{LearnTracker for Android}. The LearnTracker client is an adaptation from the NFC-LearnTracker\footnote{NFC LearnTracker. Video description: https://www.youtube.com/watch?v=Rl-jAII4IN8}  \citep{Tabuenca2014f,TabuencaLT2014b}, a standalone application developed for NFC-enabled devices released\footnote{NFC LearnTracker. APP in Google Play: https://play.google.com/store/apps/details?id=org.ounl.lifelonglearninghub} in March 2014 . The LearnTracker has been designed on the seamless notion that lifelong learners can study in a variety of scenarios switching from one scenario or context to another easily and quickly, using the personal device as a mediator. Students can use their personal mobile device to record their study-time across context. Based on these time logs, suitable visualizations with learning analytics can be served with to provide feedback on the time devoted to each learning activity. The LearnTracker contrasts the NFC-LearnTracker in the following features:
+\textbf{LearnTracker for Android}. The LearnTracker client is an adaptation from the NFC-LearnTracker\footnote{NFC LearnTracker. Video description: https://www.youtube.com/watch?v=Rl-jAII4IN8}  \citep{Tabuenca2014f,TabuencaLT2014b}, a standalone application developed for NFC-enabled devices released\footnote{NFC LearnTracker. APP in Google Play: \\ https://play.google.com/store/apps/details?id=org.ounl.lifelonglearninghub} in March 2014 . The LearnTracker has been designed on the seamless notion that lifelong learners can study in a variety of scenarios switching from one scenario or context to another easily and quickly, using the personal device as a mediator. Students can use their personal mobile device to record their study-time across context. Based on these time logs, suitable visualizations with learning analytics can be served with to provide feedback on the time devoted to each learning activity. The LearnTracker contrasts the NFC-LearnTracker in the following features:
 \begin{itemize}
 \item Learning goal definition. Teacher created goals vs. learner created goals. Learn-Tracker provides mobile support for students enrolled in online courses in which the learning goals are predefined by teachers or instructional designers. Most of the times, courses are planned clustering the content in activities, estimating when the activity should be started and the quantity of time that should be devoted to accomplish the learning goal. Teachers define learning goals in LearnTracker (figure \ref{fig:sload_3a}) based on the yardstick of the subject, in contrast to NFC-LearnTracker in which the learner defines his personal learning goals based on own motivations and circumstances.
+
 \item Data storage. Remotely stored data vs. locally stored data. Courses deployed in LearnTracker are retrieved from the remote database at LearnTracker Backend. Likewise, time-logs are also recorded in the backend. Nonetheless, NFC-LearnTacker is a standalone app displaying learning goals that are previously created by the student in a client database. Time-logs are recorded in local client data-base in the mobile devices. This feature implies remarkable differences in two aspects: 1) Connectivity. LearnTracker requires Internet connection to store the data whereas NFC-LearnTracker does not. 2) Privacy. Time-logs in LearnTracker are recorded in a public remote database in contrast to NFC-LearnTracker in which the data is stored in private mobile device.
+
 \item  Interaction. Friction vs. frictionless interactions. At the present time, tagged objects are widely accepted and the prominent adoption of Near Field Communication from the main mobile vendors in the last months (i.e. Apple from iOS 8 or Samsung from Android Kit Kat) has boosted this technology from an innovator to an early adopter phase. Mobile NFC technology has been increasing implemented in different learning contexts in the last years \citep{Tabuenca2014b}. Nevertheless, (as to date March 2015) the majority of the students do not own an NFC-enabled mobile phone. Students using NFC-LearnTracker tap on NFC-tags (i.e. attached to books, etc.) to record when they start and stop studying on a specific activity. Students using LearnTracker click play every time they start studying an activity (figure \ref{fig:sload_3b}), and tap stop when they finish working on the activity (figure \ref{fig:sload_3c}).
+
 \item  Learning analytics type. Personal vs. social. Learning analytics are measures reporting on data about the students and their context for purposes of understanding learning and the environments in which it occurs. NFC-LearnTracker features learning analytics monitoring patterns and the behaviour of the student (i.e. figure \ref{fig:sload_4a}). LearnTracker additionally provides social learning analytics contrasting the time devoted by the student with the time devoted by his colleagues at the classroom (figure \ref{fig:sload_4b}, \ref{fig:sload_4c}), as well as the time initially estimated by the teacher (figure \ref{fig:sload_4c}).
 \end{itemize}
 
@@ -160,11 +169,11 @@ Based on these four requirements, an online SMS-broadcasting platform\footnote{S
 \begin{figure}[ht]
 \centering
 	\subfloat[SMS management tool]{
-		\includegraphics[height=0.4\linewidth]{img/studyload_fig6a}
+		\includegraphics[height=0.45\linewidth]{img/studyload_fig6a}
 		\label{fig:sload_6a}
 	}
 	\subfloat[SMSs generated out of the templates]{
-		\includegraphics[height=0.4\linewidth]{img/studyload_fig6b}
+		\includegraphics[height=0.45\linewidth]{img/studyload_fig6b}
 		\label{fig:sload_6b}
 	}		
       \caption{SMS broadcasting tool}
@@ -203,10 +212,8 @@ The authors contacted online instructors via email asking for participation in a
 The day of the kick-off, the experiment was presented to the students to estimate how accurate estimations by instructional designers are with regard to the time needed to accomplish each learning activity scheduled in a course. Hence, the researchers warn students of the importance of making truthful time-logs stressing the correlation between the accuracy of their time-logs and the quality of the feedback the students would retrieve in the learning analytics. The teachers clarified that the number of time-logs recorded would not affect their grades and participants were assured that their responses would remain anonymous and confidential. Both mobile tools were demoed and students were invited to voluntarily select the one they might find handier based on their preferences and their mobile features. 
 
 Concurring with the course kick-off, the mobile tools used in this experiment were presented in a technology enhanced learning workshop  that gathered teachers and researchers with the aim find suitable combinations between theory and practice. The feedback collected in this meeting was useful to identify potential uses of the information collected with these tools and which chart visualizations matches better to each scenario. These conclusions are further analysed in the discussion section of this manuscript.
-
-Questionnaires data were imported from the Web into MS Excel format and then imported into R Studio (v 0.98.1102). Time-logs data were exported from the backend to JSON format, converted to comma-separated-files and imported into MySQL tables. Based on the proposed research questions, some SQL queries were created and the results exported to be finally imported and analysed into MS Excel or R Studio (v 0.98.1102).
-
 \subsection{Data analysis}
+Questionnaires data were imported from the Web into MS Excel format and then imported into R Studio (v 0.98.1102). Time-logs data were exported from the backend to JSON format, converted to comma-separated-files and imported into MySQL tables. Based on the proposed research questions, some SQL queries were created and the results exported to be finally imported and analysed into MS Excel or R Studio (v 0.98.1102).
 \section{Results}
 \subsection{Impact of logging/monitoring time in self-regulation}
 The data obtained in the course C1 is used to evaluate the first hypothesis (H1). The scores obtained from OSLQ demonstrated adequate internal consistency of scores with $\alpha$ = .80. \cite{Nunnally1994} has suggested that score reliability of .70 or better is acceptable. When examining the internal consistency of scores by subscale (Table 1), values for Cronbach alpha ranged from .76 to .83 revealing sufficient score reliability for “goal setting”, “environment structuring” and “time management”. Nevertheless, values for Cronbach alpha ranged from .41 to .50 revealing insufficient score reliability for “self-evaluation” and “task strategies”. “Help seeking” was accounted as reliable due to its close approximation to the acceptance value.
@@ -292,11 +299,11 @@ The results of the first contrast determine that all measures taken during the c
 \begin{figure}[ht]
 \centering
 	\subfloat[Time management]{
-		\includegraphics[width=0.4\linewidth]{img/studyload_fig8a}
+		\includegraphics[width=0.5\linewidth]{img/studyload_fig8a}
 		\label{fig:sload_8a}
 	}
 	\subfloat[Time planning]{
-		\includegraphics[width=0.4\linewidth]{img/studyload_fig8b}
+		\includegraphics[width=0.5\linewidth]{img/studyload_fig8b}
 		\label{fig:sload_8b}
 	}	
 
@@ -334,11 +341,11 @@ The differences in the contrasts confirm significant differences in the variance
 \begin{figure}[ht]
 \centering
 	\subfloat[Contrast 1. Notifications pushed at fixed time of the day]{
-		\includegraphics[width=0.4\linewidth]{img/studyload_fig9a}
+		\includegraphics[width=0.5\linewidth]{img/studyload_fig9a}
 		\label{fig:sload_9a}
 	}
 	\subfloat[Contrast 2. Notifications pushed on random basis in the time of the day]{
-		\includegraphics[width=0.4\linewidth]{img/studyload_fig9b}
+		\includegraphics[width=0.5\linewidth]{img/studyload_fig9b}
 		\label{fig:sload_9b}
 	}	
       \caption{Boxplots with measure of means in “time management” subscale. 5) Strongly disagree; 4) Disagree; 3) Neutral; 2) Agree; 1) Strongly agree;}
@@ -368,21 +375,21 @@ Herby we explore how variations in timing of the notification moderate the numbe
 
 \begin{figure}
      \centering
-     \includegraphics[width=0.8\linewidth]{img/studyload_fig11}
+     \includegraphics[width=0.9\linewidth]{img/studyload_fig11}
      \caption{Y-axis is the number of logs. X-axis is the time of the day. Relationship between the SMS notifications and students’ time-log reactions. Submitting message in the evening at 20h (vertical red dashed line). The thickness of the plot indicates the duration of the time-logs recorded}
      \label{fig:sload_11}
 \end{figure}
 
 \begin{figure}
      \centering
-     \includegraphics[width=0.8\linewidth]{img/studyload_fig12}
+     \includegraphics[width=0.9\linewidth]{img/studyload_fig12}
      \caption{Y-axis is the number of logs. X-axis is the time of the day. Relationship between the SMS notifications and students’ time-logs reaction. Submitting message in the morning at 10h (vertical red dashed line). The thickness of the plot indicates the duration of the time-logs recorded.}
      \label{fig:sload_12}
 \end{figure}
 
 \begin{figure}
      \centering
-     \includegraphics[width=0.8\linewidth]{img/studyload_fig13}
+     \includegraphics[width=0.9\linewidth]{img/studyload_fig13}
      \caption{Y-axis is the number of logs. X-axis is the time of the day. Relationship between the SMS notifications and students’ time-logs reaction. Submitting message on random basis (vertical red dashed line). The thickness of the plot indicates the duration of the time-logs recorded.}
      \label{fig:sload_13}
 \end{figure}
@@ -456,11 +463,11 @@ The differences in the contrasts for TM confirm significant variances in M2 (p=.
 \begin{figure}[ht]
 \centering
 	\subfloat[Contrast 1. Notifications containing generic tips]{
-		\includegraphics[width=0.4\linewidth]{img/studyload_fig14a}
+		\includegraphics[width=0.5\linewidth]{img/studyload_fig14a}
 		\label{fig:sload_14a}
 	}
 	\subfloat[Contrast 2. Notifications containing learning analytics]{
-		\includegraphics[width=0.4\linewidth]{img/studyload_fig14b}
+		\includegraphics[width=0.5\linewidth]{img/studyload_fig14b}
 		\label{fig:sload_14b}
 	}		
       \caption{Boxplots with measure of means in “time management” subscale. 5) Strongly disagree; 4) Disagree; 3) Neutral; 2) Agree; 1) Strongly agree;}
