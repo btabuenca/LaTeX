@@ -1,11 +1,11 @@
-\chapter{User-modelled ambient feedback for self-regulation}
+\chapter{User-modelled ambient feedback for self-regulated learning}
 
 \vfill
-A fundamental objective of human-computer interaction research is to make systems that are seamlessly integrated into daily life activities. Hence, the challenge for technology enhanced-learning research is not only to make in-formation available to people at any time, at any place, and in any form, but specifically to say the “right” thing at the “right” time in the “right” way. On the other hand, the proliferation of sensor technology is facilitating the scaffolding and customization of smart learning environments. This manuscript presents an ecology of resources comprising NFC, BLE and Arduino technology, orchestrated in the context of a learning environment to provide smoothly integrated feedback via ambient displays. This ecology is proposed as a suitable solution for self-regulation, providing support for setting learning goals, setting aside time to learn, tracking study time and monitoring the progress. Herby, the ecology is described and intriguing research questions are introduced.
+A fundamental objective of human-computer interaction research is to make systems that are seamlessly integrated into daily life activities. Hence, the challenge for technology enhanced-learning research is not only to make in-formation available to people at any time, at any place, and in any form, but specifically to say the “right” thing at the “right” time in the “right” way. On the other hand, the proliferation of sensor technology is facilitating the scaffolding and customization of smart learning environments. This manuscript presents an ecology of resources comprising NFC, BLE and Arduino technology, orchestrated in the context of a learning environment to provide smoothly integrated feedback via ambient displays. This ecology is proposed as a suitable solution for self-regulated learning, providing support for setting learning goals, setting aside time to learn, tracking study time and monitoring the progress. Herby, the ecology is described and intriguing research questions are introduced.
 \vspace{3em}
 
 This chapter has been submitted as: 
-Tabuenca, B., B\"orner, D., Kalz, M., \& Specht, M. (2015). User-modelled ambient feedback for self-regulation. Demo paper
+Tabuenca, B., B\"orner, D., Kalz, M., \& Specht, M. (Submitted as Demo paper). User-modelled ambient feedback for self-regulated learning
 
 \clearpage
 
@@ -64,12 +64,13 @@ The Feedback Cube \citep{Borner2015} (fig. \ref{fig:nfceco_1}) is an ambient lea
 
 \section{Mapping events and feedback}
 
-The NFC-LearnTracker lets the user configure which feedback signal fits better each one of the events listed below. Herby we present the events supported and their default set-up:
+The NFC-LearnTracker lets the user configure which feedback signal\footnote{Feedback Cube effects in video: https://sites.google.com/site/lifelonglearninghubproject/home/feedback-cube} fits better each one of the events listed below. Herby we present the events supported and their default set-up (Table \ref{tbl:nfceco_table1}):
 
 \begin{table}[h]
   \centering
-  \footnotesize
-  
+  \small
+  \caption{Default configuration of events in the ecology}
+  \label{tbl:nfceco_table1}
 \begin{tabular}{|l|l|l|}
 \hline
 \multicolumn{1}{|c|}{\textbf{Event}}                                                                         & \multicolumn{1}{c|}{\textbf{Action}}                                                                                  & \multicolumn{1}{c|}{\textbf{Feedback}}                                                                                                                  \\ \hline
@@ -80,10 +81,10 @@ On check-out                                                                    
 \begin{tabular}[c]{@{}l@{}}On expiry estimated time\\ for a goal in a day\end{tabular}                       & Time expired                                                                                                          & \begin{tabular}[c]{@{}l@{}}Time just expired! The cube beeps\\ once providing a more intrusive\\ notification\end{tabular}                              \\ \hline
 \begin{tabular}[c]{@{}l@{}}Y minutes after expiring \\ the estimated time for a\\ goal in a day\end{tabular} & \begin{tabular}[c]{@{}l@{}}Y minutes after \\ expiring\end{tabular}                                                   & \begin{tabular}[c]{@{}l@{}}Overworking! The cube fades faster \\ Y’ times warning that you exceeded\\ Y minutes your scheduled time.\end{tabular}       \\ \hline
 \begin{tabular}[c]{@{}l@{}}On accomplishment of \\ all goals in a day\end{tabular}                           & \begin{tabular}[c]{@{}l@{}}On check-out \\ the last goal\end{tabular}                                                 & \begin{tabular}[c]{@{}l@{}}All daily goals accomplished! The\\ cube lights a rainbow to congratulate\\ the user\end{tabular}                            \\ \hline
-\begin{tabular}[c]{@{}l@{}}On accomplishment of\\ one-goal deadline date\end{tabular}                        & \begin{tabular}[c]{@{}l@{}}Scheduled date \\ to finishone goal\end{tabular}                                           & \begin{tabular}[c]{@{}l@{}}Learning goal accomplished! The\\ cube plays a melody indicating the\\ goal is finished\end{tabular}                         \\ \hline
-\begin{tabular}[c]{@{}l@{}}On accomplishment \\ of all-goals deadline \\ date\end{tabular}                   & \begin{tabular}[c]{@{}l@{}}Scheduled date \\ to finish\\ the last goal\end{tabular}                                   & \begin{tabular}[c]{@{}l@{}}All goals accomplished! The cube\\ lights a rotating rainbow to congratu-\\ late the user\end{tabular}                       \\ \hline
+\begin{tabular}[c]{@{}l@{}}On accomplishment of\\ one-goal deadline date\end{tabular}                        & \begin{tabular}[c]{@{}l@{}}Scheduled date \\ to finish one goal\end{tabular}                                           & \begin{tabular}[c]{@{}l@{}}Learning goal accomplished! The\\ cube plays a melody indicating the\\ goal is finished\end{tabular}                         \\ \hline
+\begin{tabular}[c]{@{}l@{}}On accomplishment \\ of all-goals deadline \\ date\end{tabular}                   & \begin{tabular}[c]{@{}l@{}}Scheduled date \\ to finish\\ the last goal\end{tabular}                                   & \begin{tabular}[c]{@{}l@{}}All goals accomplished! The cube\\ lights a rotating rainbow to \\ congratulate the user\end{tabular}                       \\ \hline
 On move away                                                                                                 & \begin{tabular}[c]{@{}l@{}}The user moves away\\ from the BLE beacon\end{tabular}                                     & \begin{tabular}[c]{@{}l@{}}Summarize! The cube beeps Z’ times\\ summarizing pending study time\\ (e.g. 30 minutes pending beeps 3\\ times)\end{tabular} \\ \hline
 \end{tabular}
 \end{table}
 
-In further research, the quality of the learning analytics via mobile visualizations and ambient displays will be contrasted and evaluated \citep{Scheffel2014}. Additionally, we will explore to which extent internal feedback services improve self-regulation.
+In further research, the quality of the learning analytics via mobile visualizations and ambient displays will be contrasted and evaluated \citep{Scheffel2014}. Additionally, we will explore to which extent internal feedback services improve self-regulated learning.
