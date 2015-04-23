@@ -40,14 +40,14 @@
 \mainmatter
 	
 	\include{./chapters/Introduction}
-		\clearpage{\pagestyle{empty}\cleardoublepage}
+		%\clearpage{\pagestyle{empty}\cleardoublepage}
 
 
 	\part{Theoretical approach}
 		\include{./chapters/Survey}
 		\include{./chapters/OERrepos}
 		\include{./chapters/NFCreview}
-		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		%\clearpage{\pagestyle{empty}\cleardoublepage}	
 		\addtocontents{toc}{\protect\newpage}
 		
 	\part{Formative studies and prototypes}
@@ -55,34 +55,35 @@
 		\include{./chapters/MobileAuthoring}
 		\include{./chapters/NFCLearnTracker}		
 		\include{./chapters/NFCecology}		
-		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		%\clearpage{\pagestyle{empty}\cleardoublepage}	
 		\addtocontents{toc}{\protect\newpage}
 	
 	\part{Empirical findings}
 		\include{./chapters/Notifications}
 		\include{./chapters/Studyload}
-		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		%\clearpage{\pagestyle{empty}\cleardoublepage}	
 		\addtocontents{toc}{\protect\newpage}
 
 
 	\include{./chapters/Discussion}
-		\clearpage{\pagestyle{empty}\cleardoublepage}
+		%\clearpage{\pagestyle{empty}\cleardoublepage}
 
 \backmatter
 
 	\bibliographystyle{apalike}
+	%\bibliographystyle{apacite}
 	\renewcommand{\bibname}{References}
 	\addcontentsline{toc}{chapter}{References}
 	\bibliography{bibtex/References.bib} 
 	
 	\addtocontents{toc}{\bigskip}
-	\clearpage{\pagestyle{empty}\cleardoublepage}
+	%\clearpage{\pagestyle{empty}\cleardoublepage}
 
 	\appendix
 		\include{./chapters/Appendix}
 		\include{./chapters/Summary}
-		\include{./chapters/Samenvatting}
-	\clearpage{\pagestyle{empty}\cleardoublepage}
-	\clearpage{\pagestyle{empty}\cleardoublepage}
+		%\include{./chapters/Samenvatting}
+	%\clearpage{\pagestyle{empty}\cleardoublepage}
+	%\clearpage{\pagestyle{empty}\cleardoublepage}
 
 \end{document}
