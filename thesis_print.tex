@@ -38,7 +38,7 @@
 
 \begin{document}
 
-\nocite{*} % everything that doesn't get cited shouldn't appear in the bibliography 
+%\nocite{*} % everything that doesn't get cited shouldn't appear in the bibliography 
 
 \begin{titlepage}
 	\null\vspace*{15.25em}
@@ -54,7 +54,7 @@
 	The research reported in this thesis was carried out at the Open Universiteit in the Netherlands at Welten Institute, the Research Centre for Learning, Teaching and Technology\\
 	\vspace*{1em}
 	\center
-	\includegraphics[width=0.4\textwidth]{figures/welten} \\ %0.75
+	\includegraphics[width=1\textwidth]{figures/weltenlarge} \\ %0.75
 	\vspace*{1em}
 	\raggedright
 	and under the auspices of SIKS, the Dutch Research School for Information and Knowledge Systems.\\
@@ -154,32 +154,30 @@
 		\include{./chapters/Survey}
 		\include{./chapters/OERrepos}
 		\include{./chapters/NFCreview}
-\clearpage{\pagestyle{empty}\cleardoublepage}	
-\addtocontents{toc}{\protect\newpage}
+		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		\addtocontents{toc}{\protect\newpage}
 		
 	\part{Formative studies}
 		\include{./chapters/Esm}	
 		\include{./chapters/MobileAuthoring}
-\clearpage{\pagestyle{empty}\cleardoublepage}		
-\addtocontents{toc}{\protect\newpage}	
-		
 		\include{./chapters/NFCLearnTracker}		
 		\include{./chapters/NFCecology}		
-\clearpage{\pagestyle{empty}\cleardoublepage}		
-\addtocontents{toc}{\protect\newpage}		
+		\clearpage{\pagestyle{empty}\cleardoublepage}		
+		\addtocontents{toc}{\protect\newpage}		
 
 	
 	\part{Empirical findings}
 		\include{./chapters/Notifications}
 		\include{./chapters/Studyload}
-\clearpage{\pagestyle{empty}\cleardoublepage}	
-\addtocontents{toc}{\protect\newpage}
+		\clearpage{\pagestyle{empty}\cleardoublepage}	
+		\addtocontents{toc}{\protect\newpage}
 	
 \backmatter
 	
 	\include{./chapters/Discussion}
 	\include{./chapters/Acknowledgements}
-		\clearpage{\pagestyle{empty}\cleardoublepage}
+%		\clearpage{\pagestyle{empty}\cleardoublepage}
+%		\addtocontents{toc}{\protect\newpage}
 
 	\bibliographystyle{apalike} % THIS sets the bibliography style. requires natbib in the header file.
 	\renewcommand{\bibname}{References}
